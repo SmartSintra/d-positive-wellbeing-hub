@@ -11,7 +11,7 @@ const Navigation = () => {
             <div className="w-8 h-8 bg-gradient-to-br from-[#3ED3FE] to-[#B86DFE] rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg">D+</span>
             </div>
-            <span className="text-xl font-bold text-[#18143C]">D+Positive</span>
+            <span className="text-xl font-bold text-slate-50">D+Positive</span>
           </div>
 
           {/* Desktop Menu */}

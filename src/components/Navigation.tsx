@@ -25,7 +25,7 @@ const Navigation = () => {
             <Button variant="outline" className="border-[#B86DFE] text-[#B86DFE] hover:bg-[#B86DFE] hover:text-white">
               Subscribe for More
             </Button>
-            <Button variant="ghost" className="text-gray-700 hover:text-[#18143C] flex items-center space-x-1">
+            <Button variant="ghost" className="flex items-center space-x-1 text-slate-50">
               <Heart className="w-4 h-4" />
               <span>Support This Project</span>
             </Button>

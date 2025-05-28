@@ -15,8 +15,8 @@ const HeroSection = () => {
       {/* Emotive Background Images */}
       <div className="absolute inset-0 opacity-5">
         <img 
-          src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=1920&h=1080&fit=crop" 
-          alt="Person with laptop" 
+          src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1920&h=1080&fit=crop" 
+          alt="AI technology and wellness" 
           className="w-full h-full object-cover"
         />
       </div>
@@ -55,8 +55,8 @@ const HeroSection = () => {
               <div className="relative">
                 <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-[#3ED3FE]/30 shadow-2xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=400&h=400&fit=crop&crop=center" 
-                    alt="Hope and support" 
+                    src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop&crop=center" 
+                    alt="AI and emotional wellness technology" 
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -76,7 +76,7 @@ const HeroSection = () => {
         </div>
       </div>
       
-      {/* Enhanced scroll indicator - removed bounce animation */}
+      {/* Enhanced scroll indicator - soft and simple */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
         <div className="w-6 h-10 border-2 border-[#3ED3FE] rounded-full flex justify-center relative">
           <div className="w-1 h-3 bg-[#3ED3FE] rounded-full mt-2 animate-pulse"></div>

@@ -22,9 +22,9 @@ const Navigation = () => {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
-        <div className="container mx-auto px-6 py-4 bg-primary-foreground">
-          <div className="flex items-center justify-between bg-[#000a00]/0">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 w-full">
+        <div className="w-full px-6 py-4 bg-primary-foreground">
+          <div className="flex items-center justify-between bg-[#000a00]/0 max-w-7xl mx-auto">
             {/* Logo */}
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-to-br from-[#3ED3FE] to-[#B86DFE] rounded-lg flex items-center justify-center">
@@ -35,23 +35,23 @@ const Navigation = () => {
 
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-6">
-              <a href="#about" className="text-white hover:text-[#3ED3FE] transition-colors flex items-center space-x-1">
+              <a href="#about" className="text-white hover:text-[#3ED3FE] transition-colors flex items-center space-x-1 border border-white rounded-full px-4 py-2 hover:bg-white/10">
                 <Users className="w-4 h-4" />
                 <span>About Us</span>
               </a>
-              <a href="#learn" className="text-white hover:text-[#3ED3FE] transition-colors flex items-center space-x-1">
+              <a href="#learn" className="text-white hover:text-[#3ED3FE] transition-colors flex items-center space-x-1 border border-white rounded-full px-4 py-2 hover:bg-white/10">
                 <BookOpen className="w-4 h-4" />
                 <span>Learn</span>
               </a>
-              <Button className="bg-[#3ED3FE] hover:bg-[#2bc3ee] text-white flex items-center space-x-1">
+              <Button className="bg-[#3ED3FE] hover:bg-[#2bc3ee] text-white rounded-full flex items-center space-x-1">
                 <Rocket className="w-4 h-4" />
                 <span>Join Beta</span>
               </Button>
-              <Button className="bg-[#B86DFE] hover:bg-[#a05ce6] text-white flex items-center space-x-1">
+              <Button className="bg-[#B86DFE] hover:bg-[#a05ce6] text-white rounded-full flex items-center space-x-1">
                 <Bell className="w-4 h-4" />
                 <span>Subscribe for More</span>
               </Button>
-              <Button variant="ghost" className="flex items-center space-x-1 text-white hover:text-white hover:bg-white/10">
+              <Button variant="outline" className="border-white text-white hover:bg-white/10 rounded-full flex items-center space-x-1">
                 <Heart className="w-4 h-4" />
                 <span>Support This Project</span>
               </Button>
@@ -65,24 +65,24 @@ const Navigation = () => {
 
           {/* Mobile Menu */}
           {isMenuOpen && (
-            <div className="md:hidden mt-4 pb-4 space-y-4">
-              <a href="#about" className="block text-white hover:text-[#3ED3FE] flex items-center space-x-2">
+            <div className="md:hidden mt-4 pb-4 space-y-4 max-w-7xl mx-auto">
+              <a href="#about" className="block text-white hover:text-[#3ED3FE] flex items-center space-x-2 border border-white rounded-full px-4 py-2 hover:bg-white/10">
                 <Users className="w-4 h-4" />
                 <span>About Us</span>
               </a>
-              <a href="#learn" className="block text-white hover:text-[#3ED3FE] flex items-center space-x-2">
+              <a href="#learn" className="block text-white hover:text-[#3ED3FE] flex items-center space-x-2 border border-white rounded-full px-4 py-2 hover:bg-white/10">
                 <BookOpen className="w-4 h-4" />
                 <span>Learn</span>
               </a>
-              <Button className="w-full bg-[#3ED3FE] hover:bg-[#2bc3ee] text-white flex items-center justify-center space-x-1">
+              <Button className="w-full bg-[#3ED3FE] hover:bg-[#2bc3ee] text-white rounded-full flex items-center justify-center space-x-1">
                 <Rocket className="w-4 h-4" />
                 <span>Join Beta</span>
               </Button>
-              <Button className="w-full bg-[#B86DFE] hover:bg-[#a05ce6] text-white flex items-center justify-center space-x-1">
+              <Button className="w-full bg-[#B86DFE] hover:bg-[#a05ce6] text-white rounded-full flex items-center justify-center space-x-1">
                 <Bell className="w-4 h-4" />
                 <span>Subscribe for More</span>
               </Button>
-              <Button variant="ghost" className="w-full flex items-center justify-center space-x-1 text-white hover:text-white hover:bg-white/10">
+              <Button variant="outline" className="w-full border-white text-white hover:bg-white/10 rounded-full flex items-center justify-center space-x-1">
                 <Heart className="w-4 h-4" />
                 <span>Support This Project</span>
               </Button>

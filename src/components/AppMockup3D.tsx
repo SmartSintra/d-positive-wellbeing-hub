@@ -22,66 +22,104 @@ const AppMockup3D = () => {
         </div>
 
         <div className="flex flex-col lg:flex-row items-center gap-12">
-          {/* 3D Phone Mockup */}
+          {/* Real 3D iPhone Mockup */}
           <div className="flex-1 flex justify-center">
             <div className="relative">
-              {/* Phone Frame with 3D perspective */}
-              <div className="relative transform rotate-y-12 rotate-x-12" style={{ transformStyle: 'preserve-3d', perspective: '1000px' }}>
-                <div className="w-80 h-[600px] bg-gradient-to-b from-gray-900 to-gray-800 rounded-[3rem] p-4 shadow-2xl border-8 border-gray-700 relative">
+              {/* Realistic iPhone 3D */}
+              <div className="relative transform-gpu" style={{ transform: 'perspective(1000px) rotateY(-15deg) rotateX(5deg)' }}>
+                {/* iPhone 14 Pro Frame */}
+                <div className="w-80 h-[650px] bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 rounded-[3.5rem] p-3 shadow-2xl relative">
+                  {/* Dynamic Island */}
+                  <div className="absolute top-6 left-1/2 transform -translate-x-1/2 w-32 h-8 bg-black rounded-full z-20"></div>
+                  
                   {/* Screen */}
-                  <div className="w-full h-full bg-white rounded-[2.5rem] overflow-hidden relative">
+                  <div className="w-full h-full bg-white rounded-[3rem] overflow-hidden relative">
                     {/* Status Bar */}
-                    <div className="bg-[#18143C] h-8 w-full flex items-center justify-between px-6 text-white text-sm">
+                    <div className="bg-[#18143C] h-12 w-full flex items-center justify-between px-8 text-white text-sm font-medium">
                       <span>9:41</span>
                       <div className="flex space-x-1">
+                        <div className="w-4 h-2 bg-white rounded-sm opacity-60"></div>
+                        <div className="w-4 h-2 bg-white rounded-sm opacity-80"></div>
                         <div className="w-4 h-2 bg-white rounded-sm"></div>
-                        <div className="w-4 h-2 bg-white rounded-sm"></div>
-                        <div className="w-4 h-2 bg-white rounded-sm"></div>
+                        <div className="w-6 h-3 border border-white rounded-sm">
+                          <div className="w-full h-full bg-green-400 rounded-sm"></div>
+                        </div>
                       </div>
                     </div>
                     
                     {/* App Interface */}
-                    <div className="p-6 space-y-6">
+                    <div className="p-6 space-y-6 h-full bg-gradient-to-br from-gray-50 to-white">
                       {/* Header */}
-                      <div className="text-center">
+                      <div className="text-center pt-4">
                         <h3 className="text-2xl font-bold text-[#18143C] mb-2">Good Morning, Sarah!</h3>
                         <p className="text-gray-600">How are you feeling today?</p>
                       </div>
                       
                       {/* Mood Selector */}
-                      <div className="bg-gradient-to-r from-[#3ED3FE]/10 to-[#B86DFE]/10 rounded-2xl p-4">
+                      <div className="bg-gradient-to-r from-[#3ED3FE]/10 to-[#B86DFE]/10 rounded-2xl p-6 border border-[#B86DFE]/20">
                         <div className="flex justify-between mb-4">
                           {[1,2,3,4,5].map((i) => (
-                            <div key={i} className={`w-12 h-12 rounded-full ${i === 4 ? 'bg-[#3ED3FE]' : 'bg-gray-200'} flex items-center justify-center text-xl`}>
+                            <div key={i} className={`w-12 h-12 rounded-full ${i === 4 ? 'bg-[#3ED3FE] scale-110' : 'bg-gray-200'} flex items-center justify-center text-xl transition-all duration-300 shadow-sm`}>
                               {i === 4 ? '😊' : '😐'}
                             </div>
                           ))}
                         </div>
-                        <p className="text-sm text-gray-600 text-center">Feeling pretty good today!</p>
+                        <p className="text-sm text-gray-600 text-center font-medium">Feeling pretty good today!</p>
                       </div>
                       
                       {/* Quick Actions */}
-                      <div className="grid grid-cols-2 gap-3">
-                        <div className="bg-[#3ED3FE]/20 rounded-xl p-3 text-center">
-                          <div className="w-8 h-8 bg-[#3ED3FE] rounded-full mx-auto mb-2"></div>
-                          <p className="text-sm text-gray-700">Track Mood</p>
+                      <div className="grid grid-cols-2 gap-4">
+                        <div className="bg-[#3ED3FE]/20 rounded-xl p-4 text-center border border-[#3ED3FE]/30">
+                          <div className="w-10 h-10 bg-[#3ED3FE] rounded-full mx-auto mb-3 flex items-center justify-center">
+                            <span className="text-white text-lg">📊</span>
+                          </div>
+                          <p className="text-sm text-gray-700 font-medium">Track Mood</p>
                         </div>
-                        <div className="bg-[#B86DFE]/20 rounded-xl p-3 text-center">
-                          <div className="w-8 h-8 bg-[#B86DFE] rounded-full mx-auto mb-2"></div>
-                          <p className="text-sm text-gray-700">Get Support</p>
+                        <div className="bg-[#B86DFE]/20 rounded-xl p-4 text-center border border-[#B86DFE]/30">
+                          <div className="w-10 h-10 bg-[#B86DFE] rounded-full mx-auto mb-3 flex items-center justify-center">
+                            <span className="text-white text-lg">🤝</span>
+                          </div>
+                          <p className="text-sm text-gray-700 font-medium">Get Support</p>
                         </div>
                       </div>
                       
                       {/* AI Suggestion */}
-                      <div className="bg-gradient-to-r from-[#18143C] to-[#2a1f4f] rounded-xl p-4 text-white">
-                        <h4 className="font-bold mb-2">💡 AI Suggestion</h4>
-                        <p className="text-sm opacity-90">Try a 5-minute breathing exercise before your next glucose check.</p>
+                      <div className="bg-gradient-to-r from-[#18143C] to-[#2a1f4f] rounded-xl p-6 text-white border border-[#B86DFE]/30">
+                        <h4 className="font-bold mb-3 flex items-center">
+                          <span className="mr-2">💡</span>
+                          AI Suggestion
+                        </h4>
+                        <p className="text-sm opacity-90 leading-relaxed">Try a 5-minute breathing exercise before your next glucose check to help reduce anxiety.</p>
                       </div>
                     </div>
                   </div>
                   
-                  {/* Home Indicator */}
-                  <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gray-600 rounded-full"></div>
+                  {/* Side buttons */}
+                  <div className="absolute left-0 top-32 w-1 h-16 bg-gray-700 rounded-r-sm"></div>
+                  <div className="absolute left-0 top-52 w-1 h-12 bg-gray-700 rounded-r-sm"></div>
+                  <div className="absolute left-0 top-68 w-1 h-12 bg-gray-700 rounded-r-sm"></div>
+                  <div className="absolute right-0 top-40 w-1 h-20 bg-gray-700 rounded-l-sm"></div>
+                </div>
+              </div>
+              
+              {/* Additional floating screens */}
+              <div className="absolute -top-16 -right-20 transform rotate-12">
+                <div className="w-64 h-48 bg-white rounded-xl shadow-lg border border-[#B86DFE]/30 p-4">
+                  <div className="h-full bg-gradient-to-br from-[#3ED3FE]/10 to-[#B86DFE]/10 rounded-lg flex flex-col justify-center items-center">
+                    <div className="text-4xl mb-2">📈</div>
+                    <h4 className="font-bold text-[#18143C] text-sm">Mood Trends</h4>
+                    <p className="text-xs text-gray-600 text-center mt-1">Weekly emotional patterns</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="absolute -bottom-12 -left-16 transform -rotate-6">
+                <div className="w-56 h-40 bg-white rounded-xl shadow-lg border border-[#B86DFE]/30 p-4">
+                  <div className="h-full bg-gradient-to-br from-[#B86DFE]/10 to-[#3ED3FE]/10 rounded-lg flex flex-col justify-center items-center">
+                    <div className="text-3xl mb-2">🧘‍♀️</div>
+                    <h4 className="font-bold text-[#18143C] text-sm">Coping Tools</h4>
+                    <p className="text-xs text-gray-600 text-center mt-1">Personalized strategies</p>
+                  </div>
                 </div>
               </div>
               

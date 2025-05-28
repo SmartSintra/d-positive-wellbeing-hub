@@ -1,5 +1,5 @@
 
-import { Brain, Activity, Heart, Smartphone, Calendar } from "lucide-react";
+import { Brain, Activity, Heart, Smartphone, Calendar, Shield } from "lucide-react";
 
 const SolutionOverview = () => {
   const features = [
@@ -27,6 +27,11 @@ const SolutionOverview = () => {
       icon: Calendar,
       title: "Plan your out-of-routine days",
       description: "Special support for events, travel, and schedule changes"
+    },
+    {
+      icon: Shield,
+      title: "Privacy-first approach",
+      description: "Your mental health data stays secure and confidential"
     }
   ];
 
@@ -88,8 +93,8 @@ const SolutionOverview = () => {
             <div className="flex justify-center">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=500&h=400&fit=crop&crop=center" 
-                  alt="Community support" 
+                  src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=400&fit=crop&crop=center" 
+                  alt="Friendly community support" 
                   className="rounded-2xl shadow-2xl"
                 />
                 <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-[#3ED3FE] rounded-full opacity-20 animate-pulse"></div>

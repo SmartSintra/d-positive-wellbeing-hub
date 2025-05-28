@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Heart, Menu, X, Users, Rocket, Bell, BookOpen, ChevronUp } from "lucide-react";
+import { Heart, Menu, X, Info, Rocket, Bell, BookOpen, ChevronUp } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const Navigation = () => {
@@ -36,10 +36,10 @@ const Navigation = () => {
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-6">
               <a href="#about" className="text-white hover:text-[#3ED3FE] transition-colors flex items-center space-x-1 border border-white rounded-full px-4 py-2 hover:bg-white/10">
-                <Users className="w-4 h-4" />
+                <Info className="w-4 h-4" />
                 <span>About Us</span>
               </a>
-              <a href="#learn" className="text-white hover:text-[#3ED3FE] transition-colors flex items-center space-x-1 border border-white rounded-full px-4 py-2 hover:bg-white/10">
+              <a href="#learn" className="text-white hover:text-[#3ED3FE] transition-colors flex items-center space-x-1 border border-white rounded-full px-4 py-2 hover:bg-white/10 bg-transparent">
                 <BookOpen className="w-4 h-4" />
                 <span>Learn</span>
               </a>
@@ -51,7 +51,7 @@ const Navigation = () => {
                 <Bell className="w-4 h-4" />
                 <span>Subscribe for More</span>
               </Button>
-              <Button variant="outline" className="border-white text-white hover:bg-white/10 rounded-full flex items-center space-x-1">
+              <Button variant="outline" className="border-white text-white hover:bg-white/10 rounded-full flex items-center space-x-1 bg-transparent">
                 <Heart className="w-4 h-4" />
                 <span>Support This Project</span>
               </Button>
@@ -67,10 +67,10 @@ const Navigation = () => {
           {isMenuOpen && (
             <div className="md:hidden mt-4 pb-4 space-y-4 max-w-7xl mx-auto">
               <a href="#about" className="block text-white hover:text-[#3ED3FE] flex items-center space-x-2 border border-white rounded-full px-4 py-2 hover:bg-white/10">
-                <Users className="w-4 h-4" />
+                <Info className="w-4 h-4" />
                 <span>About Us</span>
               </a>
-              <a href="#learn" className="block text-white hover:text-[#3ED3FE] flex items-center space-x-2 border border-white rounded-full px-4 py-2 hover:bg-white/10">
+              <a href="#learn" className="block text-white hover:text-[#3ED3FE] flex items-center space-x-2 border border-white rounded-full px-4 py-2 hover:bg-white/10 bg-transparent">
                 <BookOpen className="w-4 h-4" />
                 <span>Learn</span>
               </a>
@@ -82,7 +82,7 @@ const Navigation = () => {
                 <Bell className="w-4 h-4" />
                 <span>Subscribe for More</span>
               </Button>
-              <Button variant="outline" className="w-full border-white text-white hover:bg-white/10 rounded-full flex items-center justify-center space-x-1">
+              <Button variant="outline" className="w-full border-white text-white hover:bg-white/10 rounded-full flex items-center justify-center space-x-1 bg-transparent">
                 <Heart className="w-4 h-4" />
                 <span>Support This Project</span>
               </Button>

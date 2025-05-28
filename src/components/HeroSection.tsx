@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+import { Rocket, Bell } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -29,8 +30,6 @@ const HeroSection = () => {
                 Empowering Mental Well-being for{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3ED3FE] to-[#B86DFE] relative">
                   Type 1 Diabetes
-                  {/* Decorative underline */}
-                  <div className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-[#3ED3FE] to-[#B86DFE] rounded-full"></div>
                 </span>{" "}
                 Patients
               </h1>
@@ -40,11 +39,13 @@ const HeroSection = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-start items-start animate-fade-in delay-500">
-                <Button size="lg" className="bg-[#B86DFE] hover:bg-[#a05ce6] text-white px-8 py-4 text-lg font-semibold rounded-full shadow-2xl hover:shadow-[#B86DFE]/50 transition-all duration-300 hover:scale-105">
-                  Join Our Beta Program
+                <Button size="lg" className="bg-[#B86DFE] hover:bg-[#a05ce6] text-white px-8 py-4 text-lg font-semibold rounded-full shadow-2xl hover:shadow-[#B86DFE]/50 transition-all duration-300 hover:scale-105 flex items-center space-x-2">
+                  <Rocket className="w-5 h-5" />
+                  <span>Join Our Beta Program</span>
                 </Button>
-                <Button variant="outline" size="lg" className="border-[#3ED3FE] text-[#3ED3FE] hover:bg-[#3ED3FE] hover:text-[#18143C] px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105">
-                  Subscribe for Updates
+                <Button className="bg-[#3ED3FE] hover:bg-[#2bc3ee] text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 flex items-center space-x-2" size="lg">
+                  <Bell className="w-5 h-5" />
+                  <span>Subscribe for Updates</span>
                 </Button>
               </div>
             </div>
@@ -75,8 +76,8 @@ const HeroSection = () => {
         </div>
       </div>
       
-      {/* Enhanced scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      {/* Enhanced scroll indicator - removed bounce animation */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
         <div className="w-6 h-10 border-2 border-[#3ED3FE] rounded-full flex justify-center relative">
           <div className="w-1 h-3 bg-[#3ED3FE] rounded-full mt-2 animate-pulse"></div>
           <div className="absolute -bottom-8 text-[#3ED3FE] text-sm">Scroll</div>

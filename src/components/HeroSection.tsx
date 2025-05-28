@@ -1,44 +1,89 @@
+
 import { Button } from "@/components/ui/button";
+
 const HeroSection = () => {
-  return <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#18143C] via-[#2a1f4f] to-[#18143C] overflow-hidden">
+  return (
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#18143C] via-[#2a1f4f] to-[#18143C] overflow-hidden pt-20">
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-[#3ED3FE] rounded-full filter blur-3xl animate-pulse"></div>
         <div className="absolute bottom-1/3 right-1/4 w-48 h-48 bg-[#B86DFE] rounded-full filter blur-3xl animate-pulse delay-1000"></div>
         <div className="absolute top-1/2 right-1/3 w-32 h-32 bg-[#3ED3FE] rounded-full filter blur-2xl animate-pulse delay-500"></div>
       </div>
+
+      {/* Emotive Background Images */}
+      <div className="absolute inset-0 opacity-5">
+        <img 
+          src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=1920&h=1080&fit=crop" 
+          alt="Person with laptop" 
+          className="w-full h-full object-cover"
+        />
+      </div>
       
       <div className="container mx-auto px-6 text-center relative z-10">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight animate-fade-in lg:text-5xl">
-            Empowering Mental Well-being for{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3ED3FE] to-[#B86DFE]">
-              Type 1 Diabetes
-            </span>{" "}
-            Patients
-          </h1>
-          
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed animate-fade-in delay-300">
-            D+Positive is your AI-powered companion, offering emotional support and mental health resources tailored for T1D individuals.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in delay-500">
-            <Button size="lg" className="bg-[#B86DFE] hover:bg-[#a05ce6] text-white px-8 py-4 text-lg font-semibold rounded-full shadow-2xl hover:shadow-[#B86DFE]/50 transition-all duration-300 hover:scale-105">
-              Join Our Beta Program
-            </Button>
-            <Button variant="outline" size="lg" className="border-[#3ED3FE] text-[#3ED3FE] hover:bg-[#3ED3FE] hover:text-[#18143C] px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105">
-              Subscribe for Updates
-            </Button>
+        <div className="max-w-6xl mx-auto">
+          {/* Unique diagonal layout */}
+          <div className="grid lg:grid-cols-12 gap-8 items-center">
+            <div className="lg:col-span-8 lg:col-start-1 space-y-8">
+              <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight animate-fade-in lg:text-5xl text-left">
+                Empowering Mental Well-being for{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3ED3FE] to-[#B86DFE] relative">
+                  Type 1 Diabetes
+                  {/* Decorative underline */}
+                  <div className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-[#3ED3FE] to-[#B86DFE] rounded-full"></div>
+                </span>{" "}
+                Patients
+              </h1>
+              
+              <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl leading-relaxed animate-fade-in delay-300 text-left">
+                D+Positive is your AI-powered companion, offering emotional support and mental health resources tailored for T1D individuals.
+              </p>
+              
+              <div className="flex flex-col sm:flex-row gap-4 justify-start items-start animate-fade-in delay-500">
+                <Button size="lg" className="bg-[#B86DFE] hover:bg-[#a05ce6] text-white px-8 py-4 text-lg font-semibold rounded-full shadow-2xl hover:shadow-[#B86DFE]/50 transition-all duration-300 hover:scale-105">
+                  Join Our Beta Program
+                </Button>
+                <Button variant="outline" size="lg" className="border-[#3ED3FE] text-[#3ED3FE] hover:bg-[#3ED3FE] hover:text-[#18143C] px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105">
+                  Subscribe for Updates
+                </Button>
+              </div>
+            </div>
+
+            {/* Floating emotive image */}
+            <div className="lg:col-span-4 lg:col-start-9 flex justify-center animate-fade-in delay-700">
+              <div className="relative">
+                <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-[#3ED3FE]/30 shadow-2xl">
+                  <img 
+                    src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=400&h=400&fit=crop&crop=center" 
+                    alt="Hope and support" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                
+                {/* Floating elements around the image */}
+                <div className="absolute -top-4 -right-4 w-16 h-16 bg-[#B86DFE] rounded-full opacity-60 animate-bounce flex items-center justify-center">
+                  <span className="text-white text-2xl">💙</span>
+                </div>
+                <div className="absolute -bottom-4 -left-4 w-12 h-12 bg-[#3ED3FE] rounded-full opacity-60 animate-bounce delay-1000 flex items-center justify-center">
+                  <span className="text-white text-lg">✨</span>
+                </div>
+                <div className="absolute top-8 -left-8 w-8 h-8 bg-[#B86DFE] rounded-full opacity-40 animate-pulse"></div>
+                <div className="absolute bottom-8 -right-8 w-6 h-6 bg-[#3ED3FE] rounded-full opacity-40 animate-pulse delay-500"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       
-      {/* Scroll indicator */}
+      {/* Enhanced scroll indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-[#3ED3FE] rounded-full flex justify-center">
+        <div className="w-6 h-10 border-2 border-[#3ED3FE] rounded-full flex justify-center relative">
           <div className="w-1 h-3 bg-[#3ED3FE] rounded-full mt-2 animate-pulse"></div>
+          <div className="absolute -bottom-8 text-[#3ED3FE] text-sm">Scroll</div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default HeroSection;

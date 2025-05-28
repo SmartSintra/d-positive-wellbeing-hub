@@ -1,9 +1,6 @@
-
 import { Button } from "@/components/ui/button";
-
 const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#18143C] via-[#2a1f4f] to-[#18143C] overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#18143C] via-[#2a1f4f] to-[#18143C] overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-[#3ED3FE] rounded-full filter blur-3xl animate-pulse"></div>
@@ -13,7 +10,7 @@ const HeroSection = () => {
       
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight animate-fade-in">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight animate-fade-in lg:text-5xl">
             Empowering Mental Well-being for{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3ED3FE] to-[#B86DFE]">
               Type 1 Diabetes
@@ -26,17 +23,10 @@ const HeroSection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in delay-500">
-            <Button 
-              size="lg" 
-              className="bg-[#B86DFE] hover:bg-[#a05ce6] text-white px-8 py-4 text-lg font-semibold rounded-full shadow-2xl hover:shadow-[#B86DFE]/50 transition-all duration-300 hover:scale-105"
-            >
+            <Button size="lg" className="bg-[#B86DFE] hover:bg-[#a05ce6] text-white px-8 py-4 text-lg font-semibold rounded-full shadow-2xl hover:shadow-[#B86DFE]/50 transition-all duration-300 hover:scale-105">
               Join Our Beta Program
             </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-[#3ED3FE] text-[#3ED3FE] hover:bg-[#3ED3FE] hover:text-[#18143C] px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105"
-            >
+            <Button variant="outline" size="lg" className="border-[#3ED3FE] text-[#3ED3FE] hover:bg-[#3ED3FE] hover:text-[#18143C] px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105">
               Subscribe for Updates
             </Button>
           </div>
@@ -49,8 +39,6 @@ const HeroSection = () => {
           <div className="w-1 h-3 bg-[#3ED3FE] rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;

@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Rocket, Bell } from "lucide-react";
 
@@ -31,13 +32,9 @@ const HeroSection = () => {
               <p className="text-xl text-gray-300 mb-8 max-w-3xl leading-relaxed animate-fade-in delay-300 text-left md:text-xl">D+Positive addresses the critical gap in psychological support for T1D patients, offering specialized mental health resources and emotional guidance.</p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-start items-start animate-fade-in delay-500">
-                <Button size="lg" className="bg-[#B86DFE] hover:bg-[#a05ce6] text-white px-8 py-4 text-lg font-semibold rounded-full shadow-2xl hover:shadow-[#B86DFE]/50 transition-all duration-300 hover:scale-105 flex items-center space-x-2">
+                <Button size="lg" className="bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white px-8 py-4 text-lg font-semibold rounded-full shadow-2xl hover:shadow-[#B86DFE]/50 transition-all duration-300 hover:scale-105 flex items-center space-x-2">
                   <Rocket className="w-5 h-5" />
                   <span>Join Our Beta Program</span>
-                </Button>
-                <Button className="bg-[#3ED3FE] hover:bg-[#2bc3ee] text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 flex items-center space-x-2" size="lg">
-                  <Bell className="w-5 h-5" />
-                  <span>Subscribe for Updates</span>
                 </Button>
               </div>
             </div>

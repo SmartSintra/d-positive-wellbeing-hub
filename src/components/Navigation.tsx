@@ -27,7 +27,7 @@ const Navigation = () => {
           <div className="flex items-center justify-between bg-[#000a00]/0 max-w-7xl mx-auto">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-[#3ED3FE] to-[#B86DFE] rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-lg">D+</span>
               </div>
               <span className="text-xl font-bold text-slate-50">D+Positive</span>
@@ -43,13 +43,9 @@ const Navigation = () => {
                 <BookOpen className="w-4 h-4" />
                 <span>Learn</span>
               </a>
-              <Button className="bg-[#3ED3FE] hover:bg-[#2bc3ee] text-white rounded-full flex items-center space-x-1">
+              <Button className="bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white rounded-full flex items-center space-x-1">
                 <Rocket className="w-4 h-4" />
                 <span>Join Beta</span>
-              </Button>
-              <Button className="bg-[#B86DFE] hover:bg-[#a05ce6] text-white rounded-full flex items-center space-x-1">
-                <Bell className="w-4 h-4" />
-                <span>Subscribe for More</span>
               </Button>
               <Button variant="outline" className="border-white text-white hover:bg-white/10 rounded-full flex items-center space-x-1 bg-transparent">
                 <Heart className="w-4 h-4" />
@@ -74,13 +70,9 @@ const Navigation = () => {
                 <BookOpen className="w-4 h-4" />
                 <span>Learn</span>
               </a>
-              <Button className="w-full bg-[#3ED3FE] hover:bg-[#2bc3ee] text-white rounded-full flex items-center justify-center space-x-1">
+              <Button className="w-full bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white rounded-full flex items-center justify-center space-x-1">
                 <Rocket className="w-4 h-4" />
                 <span>Join Beta</span>
-              </Button>
-              <Button className="w-full bg-[#B86DFE] hover:bg-[#a05ce6] text-white rounded-full flex items-center justify-center space-x-1">
-                <Bell className="w-4 h-4" />
-                <span>Subscribe for More</span>
               </Button>
               <Button variant="outline" className="w-full border-white text-white hover:bg-white/10 rounded-full flex items-center justify-center space-x-1 bg-transparent">
                 <Heart className="w-4 h-4" />
@@ -95,7 +87,7 @@ const Navigation = () => {
       {showScrollTop && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 z-50 bg-[#B86DFE] hover:bg-[#a05ce6] text-white p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-105"
+          className="fixed bottom-8 right-8 z-50 bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-105"
         >
           <ChevronUp className="w-5 h-5" />
         </button>

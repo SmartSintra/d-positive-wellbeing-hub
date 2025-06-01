@@ -2,8 +2,10 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+
 const ContactSection = () => {
-  return <section className="py-20 bg-white">
+  return (
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-[#18143C] text-center mb-16">
@@ -24,20 +26,12 @@ const ContactSection = () => {
               
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-[#3ED3FE] rounded-full flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-full flex items-center justify-center">
                     <span className="text-white font-bold">✉</span>
                   </div>
                   <div>
                     <p className="font-semibold text-[#18143C]">Email Us</p>
                     <p className="text-gray-600">hello@dpositive.health</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center space-x-4">
-                  
-                  <div>
-                    
-                    
                   </div>
                 </div>
               </div>
@@ -60,7 +54,7 @@ const ContactSection = () => {
                   <Textarea placeholder="Tell us about your T1D journey or how we can help..." rows={5} className="border-gray-300 focus:border-[#3ED3FE] focus:ring-[#3ED3FE]" />
                 </div>
                 
-                <Button type="submit" className="w-full bg-[#B86DFE] hover:bg-[#a05ce6] text-white py-3 text-lg font-semibold rounded-lg transition-all duration-300 hover:scale-105">
+                <Button type="submit" className="w-full bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white py-3 text-lg font-semibold rounded-lg transition-all duration-300 hover:scale-105">
                   Send Message
                 </Button>
               </form>
@@ -68,6 +62,8 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default ContactSection;

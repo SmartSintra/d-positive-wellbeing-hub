@@ -1,5 +1,4 @@
 
-
 import { Button } from "@/components/ui/button";
 
 const CallToAction = () => {
@@ -25,7 +24,7 @@ const CallToAction = () => {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <Button 
               size="lg"
-              className="bg-[#B86DFE] hover:bg-[#a05ce6] text-white px-12 py-6 text-xl font-semibold rounded-full shadow-2xl hover:shadow-[#B86DFE]/50 transition-all duration-300 hover:scale-105"
+              className="bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white px-12 py-6 text-xl font-semibold rounded-full shadow-2xl hover:shadow-[#B86DFE]/50 transition-all duration-300 hover:scale-105"
             >
               Sign Up Now
             </Button>
@@ -49,4 +48,3 @@ const CallToAction = () => {
 };
 
 export default CallToAction;
-

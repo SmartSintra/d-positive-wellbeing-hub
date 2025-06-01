@@ -1,4 +1,3 @@
-
 const Testimonials = () => {
   return <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
@@ -12,11 +11,7 @@ const Testimonials = () => {
             <div className="order-2 lg:order-1">
               <div className="relative">
                 <div className="w-full h-96 md:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
-                  <img 
-                    alt="Living with Type 1 Diabetes - Personal journey" 
-                    className="w-full h-full object-cover" 
-                    src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=800&h=600&fit=crop" 
-                  />
+                  <img alt="Living with Type 1 Diabetes - Personal journey" src="/lovable-uploads/d6761e5e-1637-47da-9c9e-3cf9b64236a1.jpg" className="w-full h-full object-cover" />
                 </div>
                 
                 {/* Floating accent elements */}
@@ -32,14 +27,13 @@ const Testimonials = () => {
             {/* Content */}
             <div className="order-1 lg:order-2">
               <div className="space-y-6">
-                <div className="w-20 h-20 bg-gradient-to-br from-[#B86DFE] to-[#3ED3FE] rounded-full flex items-center justify-center mb-6">
-                  <span className="text-white text-2xl font-bold">DP</span>
-                </div>
+                
                 
                 <div className="text-lg text-gray-700 leading-relaxed">
-                  <p>
-                    Living with Type 1 Diabetes for over a decade, I've experienced firsthand the emotional rollercoaster that comes with managing this chronic condition. The constant vigilance, the fear of complications, and the daily decisions that can mean the difference between feeling well or ending up in the hospital – it all takes a toll that goes far beyond the physical symptoms. What struck me most was the silence around the mental health aspects of T1D. While my endocrinologist was excellent at managing my HbA1c levels and adjusting insulin doses, there was little to no discussion about the anxiety, depression, and burnout that I was experiencing. I realized I wasn't alone – thousands of people in Portugal and millions worldwide were struggling with the same invisible burden. D+Positive was born from this gap I experienced personally. I wanted to create something that I wish I had during my darkest moments – a companion that understands the unique psychological challenges of T1D and provides the emotional support that traditional healthcare often overlooks. This isn't just an app; it's a lifeline for anyone who has ever felt overwhelmed by the weight of managing diabetes while trying to live a full, meaningful life.
-                  </p>
+                  <p className="text-base font-normal">Living with Type 1 Diabetes for over 16 years has taught me that managing numbers is only half the story — the emotional weight is just as constant. Despite having access to one of the most advanced treatments, I’ve still faced the same mental spirals, frustrations, and quiet fears that don’t show on a glucose graph. 
+
+
+That’s why I created D+Positive — not just as a tool, but as an emotional ally for people with T1D. Because what if managing diabetes is also about feeling understood, supported, and a little more human every day, I believe that living with Diabetes can truly be more positive and this vision and hope is what I am willing to share with the world.</p>
                 </div>
                 
                 <div className="pt-6 border-t border-gray-200">
@@ -53,5 +47,4 @@ const Testimonials = () => {
       </div>
     </section>;
 };
-
 export default Testimonials;

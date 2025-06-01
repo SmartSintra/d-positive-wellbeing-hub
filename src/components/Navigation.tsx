@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Heart, Menu, X, Info, Rocket, Bell, BookOpen, ChevronUp } from "lucide-react";
 import { useState, useEffect } from "react";
@@ -22,7 +21,7 @@ const Navigation = () => {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 w-full">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 w-full shadow-lg shadow-[#8B5CF6]/10">
         <div className="w-full px-6 py-4 bg-primary-foreground">
           <div className="flex items-center justify-between bg-[#000a00]/0 max-w-7xl mx-auto">
             {/* Logo */}

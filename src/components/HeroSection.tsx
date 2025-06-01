@@ -1,10 +1,9 @@
-
 import { Button } from "@/components/ui/button";
 import { Rocket, Bell } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#18143C] via-[#2a1f4f] to-[#18143C] overflow-hidden pt-20">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#18143C] via-[#2a1f4f] to-[#18143C] overflow-hidden pt-20 pb-24">
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-[#8B5CF6] rounded-full filter blur-3xl animate-pulse"></div>
@@ -62,7 +61,7 @@ const HeroSection = () => {
       </div>
       
       {/* Enhanced scroll indicator - soft and simple */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+      <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2">
         <div className="w-6 h-10 border-2 border-[#8B5CF6] rounded-full flex justify-center relative">
           <div className="w-1 h-3 bg-[#8B5CF6] rounded-full mt-2 animate-pulse"></div>
           <div className="absolute -bottom-8 text-[#8B5CF6] text-sm">Scroll</div>

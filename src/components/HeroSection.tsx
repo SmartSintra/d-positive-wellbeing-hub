@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Rocket, Brain } from "lucide-react";
 const HeroSection = () => {
@@ -31,7 +30,7 @@ const HeroSection = () => {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-start items-start animate-fade-in delay-500">
                 <Button size="lg" className="bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white px-8 py-4 text-lg font-semibold rounded-full shadow-2xl hover:shadow-[#B86DFE]/50 transition-all duration-300 hover:scale-105 flex items-center space-x-2">
-                  <div className="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center">
+                  <div className="w-6 h-6 rounded-full flex items-center justify-center bg-white/0">
                     <Rocket className="w-4 h-4" />
                   </div>
                   <span>Join Our Beta Program</span>

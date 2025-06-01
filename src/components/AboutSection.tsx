@@ -1,5 +1,5 @@
 
-import { Brain, Rocket } from "lucide-react";
+import { Brain, Rocket, Zap } from "lucide-react";
 
 const AboutSection = () => {
   return (
@@ -30,7 +30,7 @@ const AboutSection = () => {
               }}
             >
               <div className="w-16 h-16 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-full flex items-center justify-center mb-6">
-                <Rocket className="w-6 h-6 text-white" />
+                <Zap className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Our Mission</h3>
               <p className="text-gray-300 leading-relaxed">

@@ -157,7 +157,7 @@ const AppMockup3D = () => {
             
             <Button 
               size="lg"
-              className="bg-[#B86DFE] hover:bg-[#a05ce6] text-white px-8 py-6 text-lg font-semibold rounded-full shadow-2xl hover:shadow-[#B86DFE]/50 transition-all duration-300 hover:scale-105"
+              className="bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white px-8 py-6 text-lg font-semibold rounded-full shadow-2xl hover:shadow-[#B86DFE]/50 transition-all duration-300 hover:scale-105"
             >
               Try the Beta Now
             </Button>

@@ -47,6 +47,10 @@ const Navigation = () => {
                 <Rocket className="w-4 h-4" />
                 <span>Join Beta</span>
               </Button>
+              <Button className="bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white rounded-full flex items-center space-x-1">
+                <Bell className="w-4 h-4" />
+                <span>Subscribe for More</span>
+              </Button>
               <Button variant="outline" className="border-white text-white hover:bg-white/10 rounded-full flex items-center space-x-1 bg-transparent">
                 <Heart className="w-4 h-4" />
                 <span>Support This Project</span>
@@ -73,6 +77,10 @@ const Navigation = () => {
               <Button className="w-full bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white rounded-full flex items-center justify-center space-x-1">
                 <Rocket className="w-4 h-4" />
                 <span>Join Beta</span>
+              </Button>
+              <Button className="w-full bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white rounded-full flex items-center justify-center space-x-1">
+                <Bell className="w-4 h-4" />
+                <span>Subscribe for More</span>
               </Button>
               <Button variant="outline" className="w-full border-white text-white hover:bg-white/10 rounded-full flex items-center justify-center space-x-1 bg-transparent">
                 <Heart className="w-4 h-4" />

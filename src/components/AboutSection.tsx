@@ -1,5 +1,3 @@
-
-
 import { Target, Users, Lightbulb } from "lucide-react";
 
 const AboutSection = () => {
@@ -30,7 +28,7 @@ const AboutSection = () => {
                 boxShadow: '0 4px 20px rgba(184, 109, 254, 0.2), 0 0 30px rgba(184, 109, 254, 0.1)',
               }}
             >
-              <div className="w-16 h-16 bg-gradient-to-br from-[#3ED3FE] to-[#B86DFE] rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-2xl flex items-center justify-center mb-6">
                 <Target className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Our Mission</h3>
@@ -47,7 +45,7 @@ const AboutSection = () => {
                 boxShadow: '0 4px 20px rgba(184, 109, 254, 0.2), 0 0 30px rgba(184, 109, 254, 0.1)',
               }}
             >
-              <div className="w-16 h-16 bg-gradient-to-br from-[#3ED3FE] to-[#B86DFE] rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-2xl flex items-center justify-center mb-6">
                 <Users className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Our Team</h3>
@@ -64,7 +62,7 @@ const AboutSection = () => {
                 boxShadow: '0 4px 20px rgba(184, 109, 254, 0.2), 0 0 30px rgba(184, 109, 254, 0.1)',
               }}
             >
-              <div className="w-16 h-16 bg-gradient-to-br from-[#3ED3FE] to-[#B86DFE] rounded-2xl flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-2xl flex items-center justify-center mb-6">
                 <Lightbulb className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Our Vision</h3>
@@ -122,4 +120,3 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
-

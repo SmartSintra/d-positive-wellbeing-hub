@@ -16,7 +16,9 @@ const Index = () => {
       <Navigation />
       <HeroSection />
       <ProblemStatement />
-      <SolutionOverview />
+      <div id="solution">
+        <SolutionOverview />
+      </div>
       <AnxietyGlucoseConnection />
       <AppMockup3D />
       <Testimonials />

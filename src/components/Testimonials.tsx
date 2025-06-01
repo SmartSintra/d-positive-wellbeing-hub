@@ -38,7 +38,7 @@ That’s why I created D+Positive — not just as a tool, but as an emotional al
                 
                 <div className="pt-6 border-t border-gray-200">
                   <p className="font-bold text-[#18143C] text-xl">Founder & Creator</p>
-                  <p className="text-lg text-violet-500">T1D Warrior & Mental Health Advocate</p>
+                  <p className="text-lg text-violet-500">T1D Warrior &amp; Very Stubborn (but Hopeful) Patient</p>
                 </div>
               </div>
             </div>

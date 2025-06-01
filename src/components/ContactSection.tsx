@@ -41,17 +41,17 @@ const ContactSection = () => {
               <form className="space-y-6">
                 <div>
                   <label className="block text-sm font-semibold text-[#18143C] mb-2">Name</label>
-                  <Input placeholder="Your full name" className="border-gray-300 focus:border-[#3ED3FE] focus:ring-[#3ED3FE]" />
+                  <Input placeholder="Your full name" className="border-gray-300 focus:border-[#8B5CF6] focus:ring-[#8B5CF6]" />
                 </div>
                 
                 <div>
                   <label className="block text-sm font-semibold text-[#18143C] mb-2">Email</label>
-                  <Input type="email" placeholder="your.email@example.com" className="border-gray-300 focus:border-[#3ED3FE] focus:ring-[#3ED3FE]" />
+                  <Input type="email" placeholder="your.email@example.com" className="border-gray-300 focus:border-[#8B5CF6] focus:ring-[#8B5CF6]" />
                 </div>
                 
                 <div>
                   <label className="block text-sm font-semibold text-[#18143C] mb-2">Message</label>
-                  <Textarea placeholder="Tell us about your T1D journey or how we can help..." rows={5} className="border-gray-300 focus:border-[#3ED3FE] focus:ring-[#3ED3FE]" />
+                  <Textarea placeholder="Tell us about your T1D journey or how we can help..." rows={5} className="border-gray-300 focus:border-[#8B5CF6] focus:ring-[#8B5CF6]" />
                 </div>
                 
                 <Button type="submit" className="w-full bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white py-3 text-lg font-semibold rounded-lg transition-all duration-300 hover:scale-105">

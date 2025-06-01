@@ -47,18 +47,19 @@ const AnxietyGlucoseConnection = () => {
   const chartConfig = {
     hbA1c: {
       label: "HbA1c Level (%)",
-      color: "#3ED3FE"
+      color: "#8B5CF6"
     },
     withStressManagement: {
       label: "With Stress Management",
-      color: "#3ED3FE"
+      color: "#8B5CF6"
     },
     withoutStressManagement: {
       label: "Without Stress Management",
       color: "#B86DFE"
     }
   };
-  return <section className="py-20 bg-white">
+  return (
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
@@ -176,7 +177,8 @@ const AnxietyGlucoseConnection = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
 
 export default AnxietyGlucoseConnection;

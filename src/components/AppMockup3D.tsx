@@ -6,9 +6,9 @@ const AppMockup3D = () => {
     <section className="py-20 bg-gradient-to-tr from-[#18143C] via-[#2a1f4f] to-[#18143C] relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 opacity-20">
-        <div className="absolute top-1/4 left-1/6 w-72 h-72 bg-[#3ED3FE] rounded-full filter blur-3xl animate-pulse"></div>
+        <div className="absolute top-1/4 left-1/6 w-72 h-72 bg-[#8B5CF6] rounded-full filter blur-3xl animate-pulse"></div>
         <div className="absolute bottom-1/3 right-1/6 w-64 h-64 bg-[#B86DFE] rounded-full filter blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 w-48 h-48 bg-[#3ED3FE] rounded-full filter blur-2xl animate-pulse delay-500"></div>
+        <div className="absolute top-1/2 left-1/2 w-48 h-48 bg-[#8B5CF6] rounded-full filter blur-2xl animate-pulse delay-500"></div>
       </div>
       
       <div className="container mx-auto px-6 relative z-10">
@@ -56,10 +56,10 @@ const AppMockup3D = () => {
                       </div>
                       
                       {/* Mood Selector */}
-                      <div className="bg-gradient-to-r from-[#3ED3FE]/10 to-[#B86DFE]/10 rounded-2xl p-6 border border-[#B86DFE]/20">
+                      <div className="bg-gradient-to-r from-[#8B5CF6]/10 to-[#B86DFE]/10 rounded-2xl p-6 border border-[#B86DFE]/20">
                         <div className="flex justify-between mb-4">
                           {[1,2,3,4,5].map((i) => (
-                            <div key={i} className={`w-12 h-12 rounded-full ${i === 4 ? 'bg-[#3ED3FE] scale-110' : 'bg-gray-200'} flex items-center justify-center text-xl transition-all duration-300 shadow-sm`}>
+                            <div key={i} className={`w-12 h-12 rounded-full ${i === 4 ? 'bg-[#8B5CF6] scale-110' : 'bg-gray-200'} flex items-center justify-center text-xl transition-all duration-300 shadow-sm`}>
                               {i === 4 ? '😊' : '😐'}
                             </div>
                           ))}
@@ -69,8 +69,8 @@ const AppMockup3D = () => {
                       
                       {/* Quick Actions */}
                       <div className="grid grid-cols-2 gap-4">
-                        <div className="bg-[#3ED3FE]/20 rounded-xl p-4 text-center border border-[#3ED3FE]/30">
-                          <div className="w-10 h-10 bg-[#3ED3FE] rounded-full mx-auto mb-3 flex items-center justify-center">
+                        <div className="bg-[#8B5CF6]/20 rounded-xl p-4 text-center border border-[#8B5CF6]/30">
+                          <div className="w-10 h-10 bg-[#8B5CF6] rounded-full mx-auto mb-3 flex items-center justify-center">
                             <span className="text-white text-lg">📊</span>
                           </div>
                           <p className="text-sm text-gray-700 font-medium">Track Mood</p>
@@ -105,7 +105,7 @@ const AppMockup3D = () => {
               {/* Additional floating screens */}
               <div className="absolute -top-16 -right-20 transform rotate-12">
                 <div className="w-64 h-48 bg-white rounded-xl shadow-lg border border-[#B86DFE]/30 p-4">
-                  <div className="h-full bg-gradient-to-br from-[#3ED3FE]/10 to-[#B86DFE]/10 rounded-lg flex flex-col justify-center items-center">
+                  <div className="h-full bg-gradient-to-br from-[#8B5CF6]/10 to-[#B86DFE]/10 rounded-lg flex flex-col justify-center items-center">
                     <div className="text-4xl mb-2">📈</div>
                     <h4 className="font-bold text-[#18143C] text-sm">Mood Trends</h4>
                     <p className="text-xs text-gray-600 text-center mt-1">Weekly emotional patterns</p>
@@ -115,7 +115,7 @@ const AppMockup3D = () => {
               
               <div className="absolute -bottom-12 -left-16 transform -rotate-6">
                 <div className="w-56 h-40 bg-white rounded-xl shadow-lg border border-[#B86DFE]/30 p-4">
-                  <div className="h-full bg-gradient-to-br from-[#B86DFE]/10 to-[#3ED3FE]/10 rounded-lg flex flex-col justify-center items-center">
+                  <div className="h-full bg-gradient-to-br from-[#B86DFE]/10 to-[#8B5CF6]/10 rounded-lg flex flex-col justify-center items-center">
                     <div className="text-3xl mb-2">🧘‍♀️</div>
                     <h4 className="font-bold text-[#18143C] text-sm">Coping Tools</h4>
                     <p className="text-xs text-gray-600 text-center mt-1">Personalized strategies</p>
@@ -124,7 +124,7 @@ const AppMockup3D = () => {
               </div>
               
               {/* Floating Elements */}
-              <div className="absolute -top-8 -right-8 w-16 h-16 bg-[#3ED3FE] rounded-full opacity-20 animate-bounce"></div>
+              <div className="absolute -top-8 -right-8 w-16 h-16 bg-[#8B5CF6] rounded-full opacity-20 animate-bounce"></div>
               <div className="absolute -bottom-8 -left-8 w-12 h-12 bg-[#B86DFE] rounded-full opacity-20 animate-bounce delay-1000"></div>
             </div>
           </div>
@@ -142,7 +142,7 @@ const AppMockup3D = () => {
             
             <div className="space-y-4">
               <div className="flex items-center space-x-4 text-white">
-                <div className="w-3 h-3 bg-[#3ED3FE] rounded-full"></div>
+                <div className="w-3 h-3 bg-[#8B5CF6] rounded-full"></div>
                 <span>Smart mood pattern recognition</span>
               </div>
               <div className="flex items-center space-x-4 text-white">
@@ -150,7 +150,7 @@ const AppMockup3D = () => {
                 <span>Personalized coping recommendations</span>
               </div>
               <div className="flex items-center space-x-4 text-white">
-                <div className="w-3 h-3 bg-[#3ED3FE] rounded-full"></div>
+                <div className="w-3 h-3 bg-[#8B5CF6] rounded-full"></div>
                 <span>Seamless diabetes management integration</span>
               </div>
             </div>

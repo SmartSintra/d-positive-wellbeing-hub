@@ -7,9 +7,9 @@ const HeroSection = () => {
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#18143C] via-[#2a1f4f] to-[#18143C] overflow-hidden pt-20">
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-30">
-        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-[#3ED3FE] rounded-full filter blur-3xl animate-pulse"></div>
+        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-[#8B5CF6] rounded-full filter blur-3xl animate-pulse"></div>
         <div className="absolute bottom-1/3 right-1/4 w-48 h-48 bg-[#B86DFE] rounded-full filter blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 right-1/3 w-32 h-32 bg-[#3ED3FE] rounded-full filter blur-2xl animate-pulse delay-500"></div>
+        <div className="absolute top-1/2 right-1/3 w-32 h-32 bg-[#8B5CF6] rounded-full filter blur-2xl animate-pulse delay-500"></div>
       </div>
 
       {/* Emotive Background Images */}
@@ -23,7 +23,7 @@ const HeroSection = () => {
           <div className="grid lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-8 lg:col-start-1 space-y-8">
               <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight animate-fade-in lg:text-5xl text-left">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3ED3FE] to-[#B86DFE] relative">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#8B5CF6] to-[#B86DFE] relative">
                   AI-Powered Emotional Companion
                 </span>{" "}
                 for Type 1 Diabetes Management
@@ -42,7 +42,7 @@ const HeroSection = () => {
             {/* Floating emotive image */}
             <div className="lg:col-span-4 lg:col-start-9 flex justify-center animate-fade-in delay-700">
               <div className="relative">
-                <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-[#3ED3FE]/30 shadow-2xl">
+                <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-[#8B5CF6]/30 shadow-2xl">
                   <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop&crop=center" alt="AI and emotional wellness technology" className="w-full h-full object-cover" />
                 </div>
                 
@@ -50,11 +50,11 @@ const HeroSection = () => {
                 <div className="absolute -top-4 -right-4 w-16 h-16 bg-[#B86DFE] rounded-full opacity-60 animate-bounce flex items-center justify-center">
                   <span className="text-white text-2xl">💙</span>
                 </div>
-                <div className="absolute -bottom-4 -left-4 w-12 h-12 bg-[#3ED3FE] rounded-full opacity-60 animate-bounce delay-1000 flex items-center justify-center">
+                <div className="absolute -bottom-4 -left-4 w-12 h-12 bg-[#8B5CF6] rounded-full opacity-60 animate-bounce delay-1000 flex items-center justify-center">
                   <span className="text-white text-lg">✨</span>
                 </div>
                 <div className="absolute top-8 -left-8 w-8 h-8 bg-[#B86DFE] rounded-full opacity-40 animate-pulse"></div>
-                <div className="absolute bottom-8 -right-8 w-6 h-6 bg-[#3ED3FE] rounded-full opacity-40 animate-pulse delay-500"></div>
+                <div className="absolute bottom-8 -right-8 w-6 h-6 bg-[#8B5CF6] rounded-full opacity-40 animate-pulse delay-500"></div>
               </div>
             </div>
           </div>
@@ -63,9 +63,9 @@ const HeroSection = () => {
       
       {/* Enhanced scroll indicator - soft and simple */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
-        <div className="w-6 h-10 border-2 border-[#3ED3FE] rounded-full flex justify-center relative">
-          <div className="w-1 h-3 bg-[#3ED3FE] rounded-full mt-2 animate-pulse"></div>
-          <div className="absolute -bottom-8 text-[#3ED3FE] text-sm">Scroll</div>
+        <div className="w-6 h-10 border-2 border-[#8B5CF6] rounded-full flex justify-center relative">
+          <div className="w-1 h-3 bg-[#8B5CF6] rounded-full mt-2 animate-pulse"></div>
+          <div className="absolute -bottom-8 text-[#8B5CF6] text-sm">Scroll</div>
         </div>
       </div>
     </section>

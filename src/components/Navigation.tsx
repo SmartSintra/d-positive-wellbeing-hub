@@ -35,11 +35,11 @@ const Navigation = () => {
 
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-6">
-              <a href="#about" className="text-white hover:text-[#3ED3FE] transition-colors flex items-center space-x-1 border border-white rounded-full px-4 py-2 hover:bg-white/10">
+              <a href="#about" className="text-white hover:text-[#8B5CF6] transition-colors flex items-center space-x-1 border border-white rounded-full px-4 py-2 hover:bg-white/10">
                 <Info className="w-4 h-4" />
                 <span>About Us</span>
               </a>
-              <a href="#learn" className="text-white hover:text-[#3ED3FE] transition-colors flex items-center space-x-1 border border-white rounded-full px-4 py-2 hover:bg-white/10 bg-transparent">
+              <a href="#learn" className="text-white hover:text-[#8B5CF6] transition-colors flex items-center space-x-1 border border-white rounded-full px-4 py-2 hover:bg-white/10 bg-transparent">
                 <BookOpen className="w-4 h-4" />
                 <span>Learn</span>
               </a>
@@ -66,11 +66,11 @@ const Navigation = () => {
           {/* Mobile Menu */}
           {isMenuOpen && (
             <div className="md:hidden mt-4 pb-4 space-y-4 max-w-7xl mx-auto">
-              <a href="#about" className="block text-white hover:text-[#3ED3FE] flex items-center space-x-2 border border-white rounded-full px-4 py-2 hover:bg-white/10">
+              <a href="#about" className="block text-white hover:text-[#8B5CF6] flex items-center space-x-2 border border-white rounded-full px-4 py-2 hover:bg-white/10">
                 <Info className="w-4 h-4" />
                 <span>About Us</span>
               </a>
-              <a href="#learn" className="block text-white hover:text-[#3ED3FE] flex items-center space-x-2 border border-white rounded-full px-4 py-2 hover:bg-white/10 bg-transparent">
+              <a href="#learn" className="block text-white hover:text-[#8B5CF6] flex items-center space-x-2 border border-white rounded-full px-4 py-2 hover:bg-white/10 bg-transparent">
                 <BookOpen className="w-4 h-4" />
                 <span>Learn</span>
               </a>

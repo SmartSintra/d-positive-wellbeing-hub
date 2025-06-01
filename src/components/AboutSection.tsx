@@ -1,3 +1,4 @@
+
 import { Target, Users, Lightbulb } from "lucide-react";
 
 const AboutSection = () => {
@@ -5,7 +6,7 @@ const AboutSection = () => {
     <section id="about" className="py-20 bg-gradient-to-br from-[#18143C] via-[#2a1f4f] to-[#18143C] relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-1/4 right-1/4 w-64 h-64 bg-[#3ED3FE] rounded-full filter blur-3xl"></div>
+        <div className="absolute top-1/4 right-1/4 w-64 h-64 bg-[#8B5CF6] rounded-full filter blur-3xl"></div>
         <div className="absolute bottom-1/4 left-1/4 w-48 h-48 bg-[#B86DFE] rounded-full filter blur-3xl"></div>
       </div>
       
@@ -88,9 +89,9 @@ const AboutSection = () => {
                 Our platform offers the specialized care that has been missing from traditional diabetes management.
               </p>
               <div 
-                className="bg-gradient-to-r from-[#3ED3FE]/20 to-[#B86DFE]/20 p-6 rounded-2xl border border-[#B86DFE]/30"
+                className="bg-gradient-to-r from-[#8B5CF6]/20 to-[#B86DFE]/20 p-6 rounded-2xl border border-[#B86DFE]/30"
                 style={{
-                  boxShadow: '0 4px 20px rgba(184, 109, 254, 0.15), 0 0 20px rgba(62, 211, 254, 0.1)',
+                  boxShadow: '0 4px 20px rgba(184, 109, 254, 0.15), 0 0 20px rgba(139, 92, 246, 0.1)',
                 }}
               >
                 <h4 className="font-bold text-white mb-2">Evidence-based approach</h4>
@@ -108,7 +109,7 @@ const AboutSection = () => {
                   alt="Healthcare innovation and research" 
                   className="rounded-2xl shadow-2xl"
                 />
-                <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-[#3ED3FE]/20 rounded-full animate-pulse"></div>
+                <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-[#8B5CF6]/20 rounded-full animate-pulse"></div>
                 <div className="absolute -top-6 -left-6 w-24 h-24 bg-[#B86DFE]/20 rounded-full animate-pulse delay-1000"></div>
               </div>
             </div>

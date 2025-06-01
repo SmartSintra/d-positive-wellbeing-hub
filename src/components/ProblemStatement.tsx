@@ -1,5 +1,5 @@
 const ProblemStatement = () => {
-  return <section className="py-20 bg-white">
+  return <section className="py-20 bg-white px-px">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-[#18143C] mb-8">The Mental Health Risk in T1D</h2>

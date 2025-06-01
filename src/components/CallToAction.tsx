@@ -1,4 +1,5 @@
 
+
 import { Button } from "@/components/ui/button";
 
 const CallToAction = () => {
@@ -13,12 +14,12 @@ const CallToAction = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
-            Be Part of the Change
+            Help Transform T1D Mental Health Care in Portugal
           </h2>
           
           <p className="text-xl text-gray-300 mb-12 leading-relaxed">
-            Join our beta program and help us create a supportive community for T1D individuals. 
-            Together, we can transform the mental health landscape for diabetes care.
+            Be among the first to access specialized psychological support designed for the T1D community. 
+            Together, we can address the mental health gap affecting thousands of Portuguese patients.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -48,3 +49,4 @@ const CallToAction = () => {
 };
 
 export default CallToAction;
+

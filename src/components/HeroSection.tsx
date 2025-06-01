@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Rocket, Bell } from "lucide-react";
 const HeroSection = () => {
@@ -20,15 +21,15 @@ const HeroSection = () => {
           <div className="grid lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-8 lg:col-start-1 space-y-8">
               <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight animate-fade-in lg:text-5xl text-left">
-                Empowering Mental Well-being for{" "}
+                AI-Powered Emotional Support for{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3ED3FE] to-[#B86DFE] relative">
                   Type 1 Diabetes
                 </span>{" "}
-                Patients
+                Patients in Portugal
               </h1>
               
               <p className="text-xl text-gray-300 mb-8 max-w-3xl leading-relaxed animate-fade-in delay-300 text-left md:text-xl">
-                D+Positive is your AI-powered companion, offering emotional support and mental health resources tailored for T1D individuals.
+                D+Positive addresses the critical gap in psychological support for Portugal's 35,000-60,000 T1D patients, offering specialized mental health resources and emotional guidance.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-start items-start animate-fade-in delay-500">

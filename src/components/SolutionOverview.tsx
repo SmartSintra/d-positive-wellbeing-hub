@@ -1,25 +1,26 @@
+
 import { Brain, Activity, Heart, Smartphone, Calendar, Shield } from "lucide-react";
 const SolutionOverview = () => {
   const features = [{
     icon: Brain,
-    title: "AI-driven emotional support",
-    description: "Advanced AI that understands T1D-specific emotional challenges"
+    title: "T1D-specific psychological support",
+    description: "Specialized AI trained on T1D emotional challenges and mental health patterns"
   }, {
     icon: Activity,
-    title: "Mood and stress tracking",
-    description: "Monitor your emotional patterns and identify triggers"
+    title: "Psychosomatic monitoring",
+    description: "Track emotional patterns alongside physical symptoms for comprehensive care"
   }, {
     icon: Heart,
-    title: "Personalized coping strategies",
-    description: "Tailored techniques based on your unique situation"
+    title: "Mental health resource library",
+    description: "Evidence-based strategies for managing T1D-related anxiety and depression"
   }, {
     icon: Smartphone,
-    title: "Integration with diabetes management tools",
-    description: "Seamlessly connects with your existing diabetes apps"
+    title: "Integration with existing diabetes tools",
+    description: "Connects with CGM systems and diabetes management apps you already use"
   }, {
     icon: Calendar,
-    title: "Plan your out-of-routine days",
-    description: "Special support for events, travel, and schedule changes"
+    title: "Daily emotional support",
+    description: "Continuous guidance for managing the psychological burden of T1D care"
   }, {
     icon: Shield,
     title: "Privacy-first approach",
@@ -33,8 +34,8 @@ const SolutionOverview = () => {
               Introducing D+Positive
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-              Our comprehensive platform provides personalized emotional support, tracks mood patterns, 
-              and offers evidence-based coping strategies specifically designed for the T1D community.
+              The first AI-powered emotional support platform specifically designed for Type 1 Diabetes patients, 
+              addressing the critical gap in psychological care that affects thousands in Portugal and millions worldwide.
             </p>
           </div>
 
@@ -64,11 +65,11 @@ const SolutionOverview = () => {
           {/* Additional content section with emotive image */}
           <div className="mt-20 grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h3 className="font-bold text-[#18143C] text-4xl">Designed by the T1D Community, for the T1D Community</h3>
+              <h3 className="font-bold text-[#18143C] text-4xl">Built for the Portuguese T1D Community</h3>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Every feature in D+Positive has been developed with direct input from individuals 
-                living with Type 1 Diabetes, ensuring authentic support that truly understands 
-                your daily challenges and victories.
+                With only 1,153 patients in Portugal having access to advanced diabetes technology, 
+                and thousands more struggling with the emotional burden of T1D management, 
+                D+Positive provides accessible mental health support for all T1D patients.
               </p>
             </div>
             <div className="flex justify-center">

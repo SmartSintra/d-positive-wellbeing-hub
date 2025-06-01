@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -13,11 +14,11 @@ const ContactSection = () => {
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-bold text-[#18143C] mb-4">
-                  We'd Love to Hear From You
+                  Join the Movement to Transform T1D Care
                 </h3>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Have questions about D+Positive? Want to learn more about our beta program? 
-                  Or perhaps you'd like to share your T1D journey with us? We're here to listen and help.
+                  Have questions about D+Positive? Want to learn more about our specialized approach to T1D mental health? 
+                  Or perhaps you'd like to share your experience as a T1D patient in Portugal? We're here to listen and help.
                 </p>
               </div>
               
@@ -56,7 +57,7 @@ const ContactSection = () => {
                 
                 <div>
                   <label className="block text-sm font-semibold text-[#18143C] mb-2">Message</label>
-                  <Textarea placeholder="Tell us how we can help you..." rows={5} className="border-gray-300 focus:border-[#3ED3FE] focus:ring-[#3ED3FE]" />
+                  <Textarea placeholder="Tell us about your T1D journey or how we can help..." rows={5} className="border-gray-300 focus:border-[#3ED3FE] focus:ring-[#3ED3FE]" />
                 </div>
                 
                 <Button type="submit" className="w-full bg-[#B86DFE] hover:bg-[#a05ce6] text-white py-3 text-lg font-semibold rounded-lg transition-all duration-300 hover:scale-105">

@@ -1,4 +1,5 @@
 
+
 import { Target, Users, Lightbulb } from "lucide-react";
 
 const AboutSection = () => {
@@ -17,7 +18,7 @@ const AboutSection = () => {
               About D+Positive
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Born from personal experience, built with community insight, powered by cutting-edge AI
+              Addressing the urgent need for psychological support in Type 1 Diabetes care
             </p>
           </div>
           
@@ -34,8 +35,8 @@ const AboutSection = () => {
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Our Mission</h3>
               <p className="text-gray-300 leading-relaxed">
-                To bridge the gap between excellent diabetes management and mental health support, 
-                ensuring no T1D individual faces their emotional challenges alone.
+                To provide specialized psychological support for T1D patients, addressing the critical gap 
+                in mental health care that affects 35,000-60,000 individuals in Portugal and millions worldwide.
               </p>
             </div>
 
@@ -51,8 +52,8 @@ const AboutSection = () => {
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Our Team</h3>
               <p className="text-gray-300 leading-relaxed">
-                A multidisciplinary team including diabetes educators, mental health professionals, 
-                AI researchers, and T1D individuals who understand the challenges firsthand.
+                Portuguese and international experts in endocrinology, psychology, AI research, 
+                and individuals living with T1D who understand the daily emotional challenges firsthand.
               </p>
             </div>
 
@@ -68,8 +69,8 @@ const AboutSection = () => {
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Our Vision</h3>
               <p className="text-gray-300 leading-relaxed">
-                A world where every person with Type 1 Diabetes has access to compassionate, 
-                intelligent mental health support that empowers them to live their fullest life.
+                A world where every person with Type 1 Diabetes has access to comprehensive care that addresses 
+                both physical and mental health, reducing the psychological burden of this chronic condition.
               </p>
             </div>
           </div>
@@ -77,16 +78,16 @@ const AboutSection = () => {
           {/* Story section with emotive image */}
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h3 className="text-3xl font-bold text-white">Our Story</h3>
+              <h3 className="text-3xl font-bold text-white">Addressing a Critical Gap</h3>
               <p className="text-lg text-gray-300 leading-relaxed">
-                D+Positive was born from a deeply personal journey with Type 1 Diabetes. 
-                Our founder recognized the gap between excellent diabetes management tools 
-                and mental health support tailored specifically for the T1D community.
+                Despite affecting thousands of Portuguese citizens and millions globally, Type 1 Diabetes patients 
+                face significant mental health challenges with limited access to specialized psychological support. 
+                Studies show that 17-63% experience anxiety or depression related to their condition.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                We believe that managing diabetes isn't just about blood sugar levels—it's about 
-                thriving mentally and emotionally while living with a chronic condition. Our AI-powered 
-                platform provides the emotional intelligence and support that makes this possible.
+                D+Positive was created to fill this urgent need, providing AI-powered emotional support 
+                specifically designed for the unique psychological challenges of living with T1D. 
+                Our platform offers the specialized care that has been missing from traditional diabetes management.
               </p>
               <div 
                 className="bg-gradient-to-r from-[#3ED3FE]/20 to-[#B86DFE]/20 p-6 rounded-2xl border border-[#B86DFE]/30"
@@ -94,10 +95,10 @@ const AboutSection = () => {
                   boxShadow: '0 4px 20px rgba(184, 109, 254, 0.15), 0 0 20px rgba(62, 211, 254, 0.1)',
                 }}
               >
-                <h4 className="font-bold text-white mb-2">Built with empathy</h4>
+                <h4 className="font-bold text-white mb-2">Evidence-based approach</h4>
                 <p className="text-gray-300">
-                  Every feature is designed with input from the T1D community, 
-                  ensuring authentic support that truly resonates with users' experiences.
+                  Our solution is grounded in research showing the substantial psychological burden T1D patients face, 
+                  including increased risks of cardiovascular disease, kidney failure, and reduced life expectancy.
                 </p>
               </div>
             </div>
@@ -106,7 +107,7 @@ const AboutSection = () => {
               <div className="relative">
                 <img 
                   src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=500&h=600&fit=crop&crop=center" 
-                  alt="Team collaboration and innovation" 
+                  alt="Healthcare innovation and research" 
                   className="rounded-2xl shadow-2xl"
                 />
                 <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-[#3ED3FE]/20 rounded-full animate-pulse"></div>
@@ -121,3 +122,4 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+

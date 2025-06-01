@@ -1,20 +1,21 @@
 
+
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "D+Positive has been a game-changer for me. The AI understands what I'm going through in a way that feels genuinely supportive.",
-      author: "Sarah M.",
-      role: "T1D for 8 years"
+      quote: "Living with T1D for 12 years in Portugal, I've never had access to psychological support until D+Positive. It truly understands the emotional challenges we face daily.",
+      author: "Maria S.",
+      role: "T1D patient from Porto"
     },
     {
-      quote: "Finally, an app that gets it. The mood tracking helps me see patterns I never noticed before, and the coping strategies actually work.",
-      author: "Dr. James Rodriguez",
-      role: "Endocrinologist"
+      quote: "The lack of specialized mental health support for T1D patients in Portugal is concerning. D+Positive fills a critical gap in comprehensive diabetes care.",
+      author: "Dr. António Silva",
+      role: "Endocrinologist, Hospital Santa Maria"
     },
     {
-      quote: "The integration with my diabetes management routine is seamless. It's like having a therapist who understands T1D.",
-      author: "Mike K.",
-      role: "T1D for 15 years"
+      quote: "Finally, an app that addresses both the physical and emotional aspects of T1D. The AI support feels like having a therapist who truly gets what it's like to live with diabetes.",
+      author: "João M.",
+      role: "T1D patient from Lisbon"
     }
   ];
 
@@ -23,7 +24,7 @@ const Testimonials = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-[#18143C] text-center mb-16">
-            Hear from Our Users
+            Voices from the T1D Community
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -55,3 +56,4 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
+

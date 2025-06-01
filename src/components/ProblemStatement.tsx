@@ -13,7 +13,7 @@ const ProblemStatement = () => {
             </div>
             
             <div className="bg-gradient-to-br from-[#f8fafc] to-[#e2e8f0] p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="text-4xl font-bold text-[#3ED3FE] mb-4">14%</div>
+              <div className="text-4xl font-bold text-[#8B5CF6] mb-4">14%</div>
               <p className="text-gray-700 font-semibold">patients in Portugal have access to advanced CGM & Insulin Pumps in Portugal</p>
             </div>
             

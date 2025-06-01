@@ -1,6 +1,4 @@
-
 import { Rocket, Brain } from "lucide-react";
-
 const Testimonials = () => {
   return <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
@@ -14,7 +12,7 @@ const Testimonials = () => {
             <div className="order-2 lg:order-1">
               <div className="relative">
                 <div className="w-full h-96 md:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
-                  <img alt="Living with Type 1 Diabetes - Personal journey" src="/lovable-uploads/d6761e5e-1637-47da-9c9e-3cf9b64236a1.jpg" className="w-full h-full object-cover" />
+                  <img alt="Living with Type 1 Diabetes - Personal journey" className="w-full h-full object-cover" src="/lovable-uploads/3d0411be-8027-4071-abcf-9a960c898069.jpg" />
                 </div>
                 
                 {/* Floating accent elements */}
@@ -33,7 +31,7 @@ const Testimonials = () => {
                 
                 
                 <div className="text-lg text-gray-700 leading-relaxed">
-                  <p className="text-base font-normal">Living with Type 1 Diabetes for over 16 years has taught me that managing numbers is only half the story — the emotional weight is just as constant. Despite having access to one of the most advanced treatments, I've still faced the same mental spirals, frustrations, and quiet fears that don't show on a glucose graph. 
+                  <p className="text-base font-normal">Living with Type 1 Diabetes for over 16 years has taught me that managing numbers is only half the story — the emotional weight is just as constant. Despite having access to one of the most advanced treatments, I've still faced the same mental spirals, frustrations, and quiet fears that don't show on a glucose graph. 
 
 
 That's why I created D+Positive — not just as a tool, but as an emotional ally for people with T1D. Because what if managing diabetes is also about feeling understood, supported, and a little more human every day, I believe that living with Diabetes can truly be more positive and this vision and hope is what I am willing to share with the world.</p>

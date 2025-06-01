@@ -1,5 +1,6 @@
+
 import { Button } from "@/components/ui/button";
-import { Rocket, Bell } from "lucide-react";
+import { Rocket, Brain } from "lucide-react";
 const HeroSection = () => {
   return <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#18143C] via-[#2a1f4f] to-[#18143C] overflow-hidden pt-20 pb-24">
       {/* Animated background elements */}
@@ -30,7 +31,9 @@ const HeroSection = () => {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-start items-start animate-fade-in delay-500">
                 <Button size="lg" className="bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white px-8 py-4 text-lg font-semibold rounded-full shadow-2xl hover:shadow-[#B86DFE]/50 transition-all duration-300 hover:scale-105 flex items-center space-x-2">
-                  <Rocket className="w-5 h-5" />
+                  <div className="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center">
+                    <Rocket className="w-4 h-4" />
+                  </div>
                   <span>Join Our Beta Program</span>
                 </Button>
               </div>
@@ -45,10 +48,10 @@ const HeroSection = () => {
                 
                 {/* Floating elements around the image */}
                 <div className="absolute -top-4 -right-4 w-16 h-16 bg-[#B86DFE] rounded-full opacity-100 animate-bounce flex items-center justify-center">
-                  <span className="text-white text-2xl">💙</span>
+                  <Brain className="w-6 h-6 text-white" />
                 </div>
-                <div className="absolute -bottom-4 -left-4 w-12 h-12 bg-[#8B5CF6] rounded-full opacity-100 animate-bounce delay-1000 flex items-center justify-center">
-                  <span className="text-white text-lg">✨</span>
+                <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-[#8B5CF6] rounded-full opacity-100 animate-bounce delay-1000 flex items-center justify-center">
+                  <Rocket className="w-6 h-6 text-white" />
                 </div>
                 <div className="absolute top-8 -left-8 w-8 h-8 bg-[#B86DFE] rounded-full opacity-100 animate-pulse"></div>
                 <div className="absolute bottom-8 -right-8 w-6 h-6 bg-[#8B5CF6] rounded-full opacity-100 animate-pulse delay-500"></div>

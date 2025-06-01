@@ -1,5 +1,5 @@
 
-import { Target, Users, Lightbulb } from "lucide-react";
+import { Brain, Rocket } from "lucide-react";
 
 const AboutSection = () => {
   return (
@@ -29,8 +29,8 @@ const AboutSection = () => {
                 boxShadow: '0 4px 20px rgba(184, 109, 254, 0.2), 0 0 30px rgba(184, 109, 254, 0.1)',
               }}
             >
-              <div className="w-16 h-16 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-2xl flex items-center justify-center mb-6">
-                <Target className="w-8 h-8 text-white" />
+              <div className="w-16 h-16 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-full flex items-center justify-center mb-6">
+                <Rocket className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Our Mission</h3>
               <p className="text-gray-300 leading-relaxed">
@@ -46,8 +46,8 @@ const AboutSection = () => {
                 boxShadow: '0 4px 20px rgba(184, 109, 254, 0.2), 0 0 30px rgba(184, 109, 254, 0.1)',
               }}
             >
-              <div className="w-16 h-16 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-2xl flex items-center justify-center mb-6">
-                <Users className="w-8 h-8 text-white" />
+              <div className="w-16 h-16 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-full flex items-center justify-center mb-6">
+                <Brain className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Our Team</h3>
               <p className="text-gray-300 leading-relaxed">
@@ -63,8 +63,8 @@ const AboutSection = () => {
                 boxShadow: '0 4px 20px rgba(184, 109, 254, 0.2), 0 0 30px rgba(184, 109, 254, 0.1)',
               }}
             >
-              <div className="w-16 h-16 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-2xl flex items-center justify-center mb-6">
-                <Lightbulb className="w-8 h-8 text-white" />
+              <div className="w-16 h-16 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-full flex items-center justify-center mb-6">
+                <Rocket className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Our Vision</h3>
               <p className="text-gray-300 leading-relaxed">

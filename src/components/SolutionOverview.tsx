@@ -50,8 +50,8 @@ const SolutionOverview = () => {
             }}>
                   <div className="absolute inset-0 bg-gradient-to-br from-[#B86DFE]/5 to-transparent opacity-50"></div>
                   <div className="relative z-10">
-                    <div className="w-16 h-16 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-2xl flex items-center justify-center mb-6">
-                      <IconComponent className="w-8 h-8 text-white" />
+                    <div className="w-16 h-16 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-full flex items-center justify-center mb-6">
+                      <IconComponent className="w-6 h-6 text-white" />
                     </div>
                     <h3 className="text-xl font-bold text-[#18143C] mb-4">
                       {feature.title}

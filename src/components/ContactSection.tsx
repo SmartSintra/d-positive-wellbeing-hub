@@ -54,7 +54,7 @@ const ContactSection = () => {
                   <Textarea placeholder="Tell us about your T1D journey or how we can help..." rows={5} className="border-gray-300 focus:border-[#8B5CF6] focus:ring-[#8B5CF6]" />
                 </div>
                 
-                <Button type="submit" className="w-full bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white py-3 text-lg font-semibold rounded-lg transition-all duration-300 hover:scale-105">
+                <Button type="submit" className="w-full bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white py-3 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105">
                   Send Message
                 </Button>
               </form>

@@ -1,22 +1,21 @@
-
 import { Brain, Activity, Heart, Smartphone, Calendar, Shield } from "lucide-react";
 const SolutionOverview = () => {
   const features = [{
     icon: Brain,
-    title: "T1D-specific psychological support",
-    description: "Specialized AI trained on T1D emotional challenges and mental health patterns"
+    title: "T1D-specific emergency psychological support",
+    description: "Specialized AI trained on T1D for critical highs and lows and stressful events"
   }, {
     icon: Activity,
     title: "Psychosomatic monitoring",
-    description: "Track emotional patterns alongside physical symptoms for comprehensive care"
+    description: "Track emotional patterns alongside with physical conditions to comprehend how glucose reacts to your emotional states"
   }, {
     icon: Heart,
-    title: "Mental health resource library",
+    title: "Mental Health Coping strategies",
     description: "Evidence-based strategies for managing T1D-related anxiety and depression"
   }, {
     icon: Smartphone,
-    title: "Integration with existing diabetes tools",
-    description: "Connects with CGM systems and diabetes management apps you already use"
+    title: "(Beta) Integration with CGM readings in real time",
+    description: "Future connection with CGM systems that improves relation and response to emotional and glucose tracking"
   }, {
     icon: Calendar,
     title: "Daily emotional support",
@@ -24,7 +23,7 @@ const SolutionOverview = () => {
   }, {
     icon: Shield,
     title: "Privacy-first approach",
-    description: "Your mental health data stays secure and confidential"
+    description: "Your mental health data stays secure and confidential and share your data with your doctor and medical team safely"
   }];
   return <section className="py-20 bg-gradient-to-br from-[#f8fafc] to-[#e2e8f0]">
       <div className="container mx-auto px-6">

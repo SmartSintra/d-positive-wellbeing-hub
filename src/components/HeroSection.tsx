@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Rocket, Bell } from "lucide-react";
 
@@ -46,14 +47,14 @@ const HeroSection = () => {
                 </div>
                 
                 {/* Floating elements around the image */}
-                <div className="absolute -top-4 -right-4 w-16 h-16 bg-[#B86DFE] rounded-full opacity-60 animate-bounce flex items-center justify-center">
+                <div className="absolute -top-4 -right-4 w-16 h-16 bg-[#B86DFE] rounded-full opacity-100 animate-bounce flex items-center justify-center">
                   <span className="text-white text-2xl">💙</span>
                 </div>
-                <div className="absolute -bottom-4 -left-4 w-12 h-12 bg-[#8B5CF6] rounded-full opacity-60 animate-bounce delay-1000 flex items-center justify-center">
+                <div className="absolute -bottom-4 -left-4 w-12 h-12 bg-[#8B5CF6] rounded-full opacity-100 animate-bounce delay-1000 flex items-center justify-center">
                   <span className="text-white text-lg">✨</span>
                 </div>
-                <div className="absolute top-8 -left-8 w-8 h-8 bg-[#B86DFE] rounded-full opacity-40 animate-pulse"></div>
-                <div className="absolute bottom-8 -right-8 w-6 h-6 bg-[#8B5CF6] rounded-full opacity-40 animate-pulse delay-500"></div>
+                <div className="absolute top-8 -left-8 w-8 h-8 bg-[#B86DFE] rounded-full opacity-100 animate-pulse"></div>
+                <div className="absolute bottom-8 -right-8 w-6 h-6 bg-[#8B5CF6] rounded-full opacity-100 animate-pulse delay-500"></div>
               </div>
             </div>
           </div>

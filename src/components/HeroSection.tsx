@@ -1,7 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Rocket, Bell } from "lucide-react";
+
 const HeroSection = () => {
-  return <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#18143C] via-[#2a1f4f] to-[#18143C] overflow-hidden pt-20">
+  return (
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#18143C] via-[#2a1f4f] to-[#18143C] overflow-hidden pt-20">
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-[#3ED3FE] rounded-full filter blur-3xl animate-pulse"></div>
@@ -20,11 +22,10 @@ const HeroSection = () => {
           <div className="grid lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-8 lg:col-start-1 space-y-8">
               <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight animate-fade-in lg:text-5xl text-left">
-                AI-Powered Emotional Support for{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3ED3FE] to-[#B86DFE] relative">
-                  Type 1 Diabetes
+                  AI-Powered Emotional Companion
                 </span>{" "}
-                Patients in Portugal
+                for Type 1 Diabetes Management
               </h1>
               
               <p className="text-xl text-gray-300 mb-8 max-w-3xl leading-relaxed animate-fade-in delay-300 text-left md:text-xl">D+Positive addresses the critical gap in psychological support for T1D patients, offering specialized mental health resources and emotional guidance.</p>
@@ -70,6 +71,8 @@ const HeroSection = () => {
           <div className="absolute -bottom-8 text-[#3ED3FE] text-sm">Scroll</div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default HeroSection;

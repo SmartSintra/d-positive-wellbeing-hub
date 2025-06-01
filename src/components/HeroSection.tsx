@@ -1,10 +1,7 @@
-
 import { Button } from "@/components/ui/button";
 import { Rocket, Bell } from "lucide-react";
-
 const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#18143C] via-[#2a1f4f] to-[#18143C] overflow-hidden pt-20 pb-24">
+  return <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#18143C] via-[#2a1f4f] to-[#18143C] overflow-hidden pt-20 pb-24">
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-[#8B5CF6] rounded-full filter blur-3xl animate-pulse"></div>
@@ -43,7 +40,7 @@ const HeroSection = () => {
             <div className="lg:col-span-4 lg:col-start-9 flex justify-center animate-fade-in delay-700">
               <div className="relative">
                 <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-[#8B5CF6]/30 shadow-2xl">
-                  <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop&crop=center" alt="AI and emotional wellness technology" className="w-full h-full object-cover" />
+                  <img alt="AI and emotional wellness technology" className="w-full h-full object-cover" src="/lovable-uploads/df27c842-90e7-4681-8b2c-8a3fca123068.png" />
                 </div>
                 
                 {/* Floating elements around the image */}
@@ -68,8 +65,6 @@ const HeroSection = () => {
           <div className="absolute -bottom-8 text-[#8B5CF6] text-sm">Scroll</div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;

@@ -1,7 +1,7 @@
 
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, ResponsiveContainer } from "recharts";
-import { Cloud, Lotus } from "lucide-react";
+import { CloudLightning, StormClouds } from "lucide-react";
 
 const AnxietyGlucoseConnection = () => {
   // Data for HbA1c levels chart
@@ -64,7 +64,7 @@ const AnxietyGlucoseConnection = () => {
             <div className="bg-gradient-to-br from-[#f8fafc] to-[#e2e8f0] p-8 rounded-2xl shadow-lg">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-xl flex items-center justify-center">
-                  <Cloud className="w-6 h-6 text-white" />
+                  <StormClouds className="w-6 h-6 text-white" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-[#18143C]">Anxiety Impact on HbA1c</h3>
@@ -95,7 +95,7 @@ const AnxietyGlucoseConnection = () => {
             <div className="bg-gradient-to-br from-[#f8fafc] to-[#e2e8f0] p-8 rounded-2xl shadow-lg">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 bg-gradient-to-br from-[#3ED3FE] to-[#B86DFE] rounded-xl flex items-center justify-center">
-                  <Lotus className="w-6 h-6 text-white" />
+                  <CloudLightning className="w-6 h-6 text-white" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-[#18143C]">Stress Management Benefits</h3>
@@ -136,7 +136,7 @@ const AnxietyGlucoseConnection = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-6 bg-white rounded-2xl shadow-lg border border-[#B86DFE]/20">
               <div className="w-16 h-16 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-full flex items-center justify-center mx-auto mb-4">
-                <Cloud className="w-8 h-8 text-white" />
+                <StormClouds className="w-8 h-8 text-white" />
               </div>
               <h4 className="font-bold text-[#18143C] mb-3">Anxiety's Impact</h4>
               <p className="text-gray-600 text-sm leading-relaxed">
@@ -146,7 +146,7 @@ const AnxietyGlucoseConnection = () => {
 
             <div className="text-center p-6 bg-white rounded-2xl shadow-lg border border-[#3ED3FE]/20">
               <div className="w-16 h-16 bg-gradient-to-br from-[#3ED3FE] to-[#B86DFE] rounded-full flex items-center justify-center mx-auto mb-4">
-                <Lotus className="w-8 h-8 text-white" />
+                <CloudLightning className="w-8 h-8 text-white" />
               </div>
               <h4 className="font-bold text-[#18143C] mb-3">Emotional Burden</h4>
               <p className="text-gray-600 text-sm leading-relaxed">

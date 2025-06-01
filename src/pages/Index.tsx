@@ -3,6 +3,7 @@ import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import ProblemStatement from "@/components/ProblemStatement";
 import SolutionOverview from "@/components/SolutionOverview";
+import AnxietyGlucoseConnection from "@/components/AnxietyGlucoseConnection";
 import AppMockup3D from "@/components/AppMockup3D";
 import Testimonials from "@/components/Testimonials";
 import CallToAction from "@/components/CallToAction";
@@ -16,6 +17,7 @@ const Index = () => {
       <HeroSection />
       <ProblemStatement />
       <SolutionOverview />
+      <AnxietyGlucoseConnection />
       <AppMockup3D />
       <Testimonials />
       <CallToAction />

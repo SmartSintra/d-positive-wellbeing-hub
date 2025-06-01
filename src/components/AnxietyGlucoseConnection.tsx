@@ -1,34 +1,48 @@
-
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, ResponsiveContainer } from "recharts";
 import { CloudLightning, Cloud } from "lucide-react";
-
 const AnxietyGlucoseConnection = () => {
   // Data for HbA1c levels chart
-  const hbA1cData = [
-    {
-      group: "Without Anxiety",
-      hbA1c: 7.2,
-      label: "T1D individuals without significant anxiety symptoms"
-    },
-    {
-      group: "With Anxiety",
-      hbA1c: 8.4,
-      label: "T1D individuals with moderate-to-severe anxiety symptoms"
-    }
-  ];
+  const hbA1cData = [{
+    group: "Without Anxiety",
+    hbA1c: 7.2,
+    label: "T1D individuals without significant anxiety symptoms"
+  }, {
+    group: "With Anxiety",
+    hbA1c: 8.4,
+    label: "T1D individuals with moderate-to-severe anxiety symptoms"
+  }];
 
   // Data for daily glucose fluctuations
-  const glucoseData = [
-    { time: "6:00", withStressManagement: 120, withoutStressManagement: 180 },
-    { time: "9:00", withStressManagement: 140, withoutStressManagement: 220 },
-    { time: "12:00", withStressManagement: 160, withoutStressManagement: 280 },
-    { time: "15:00", withStressManagement: 130, withoutStressManagement: 250 },
-    { time: "18:00", withStressManagement: 145, withoutStressManagement: 190 },
-    { time: "21:00", withStressManagement: 125, withoutStressManagement: 170 },
-    { time: "24:00", withStressManagement: 110, withoutStressManagement: 150 }
-  ];
-
+  const glucoseData = [{
+    time: "6:00",
+    withStressManagement: 120,
+    withoutStressManagement: 180
+  }, {
+    time: "9:00",
+    withStressManagement: 140,
+    withoutStressManagement: 220
+  }, {
+    time: "12:00",
+    withStressManagement: 160,
+    withoutStressManagement: 280
+  }, {
+    time: "15:00",
+    withStressManagement: 130,
+    withoutStressManagement: 250
+  }, {
+    time: "18:00",
+    withStressManagement: 145,
+    withoutStressManagement: 190
+  }, {
+    time: "21:00",
+    withStressManagement: 125,
+    withoutStressManagement: 170
+  }, {
+    time: "24:00",
+    withStressManagement: 110,
+    withoutStressManagement: 150
+  }];
   const chartConfig = {
     hbA1c: {
       label: "HbA1c Level (%)",
@@ -43,16 +57,12 @@ const AnxietyGlucoseConnection = () => {
       color: "#B86DFE"
     }
   };
-
-  return (
-    <section className="py-20 bg-white">
+  return <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-[#18143C] mb-6">
-              Anxiety and Blood Glucose: Understanding the Connection in Type 1 Diabetes
-            </h2>
+            <h2 className="text-4xl font-bold text-[#18143C] mb-6 md:text-4xl">Emotions and Blood Glucose: Understanding the Connection in Type 1 Diabetes</h2>
             <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
               Research shows that managing emotional well-being is as crucial as insulin in controlling blood glucose levels for individuals with Type 1 Diabetes.
             </p>
@@ -78,11 +88,7 @@ const AnxietyGlucoseConnection = () => {
                   <XAxis dataKey="group" />
                   <YAxis />
                   <ChartTooltip content={<ChartTooltipContent />} />
-                  <Bar 
-                    dataKey="hbA1c" 
-                    fill="var(--color-hbA1c)"
-                    radius={[4, 4, 0, 0]}
-                  />
+                  <Bar dataKey="hbA1c" fill="var(--color-hbA1c)" radius={[4, 4, 0, 0]} />
                 </BarChart>
               </ChartContainer>
               
@@ -109,20 +115,14 @@ const AnxietyGlucoseConnection = () => {
                   <XAxis dataKey="time" />
                   <YAxis />
                   <ChartTooltip content={<ChartTooltipContent />} />
-                  <Line 
-                    type="monotone" 
-                    dataKey="withStressManagement" 
-                    stroke="var(--color-withStressManagement)"
-                    strokeWidth={3}
-                    dot={{ fill: "var(--color-withStressManagement)", r: 4 }}
-                  />
-                  <Line 
-                    type="monotone" 
-                    dataKey="withoutStressManagement" 
-                    stroke="var(--color-withoutStressManagement)"
-                    strokeWidth={3}
-                    dot={{ fill: "var(--color-withoutStressManagement)", r: 4 }}
-                  />
+                  <Line type="monotone" dataKey="withStressManagement" stroke="var(--color-withStressManagement)" strokeWidth={3} dot={{
+                  fill: "var(--color-withStressManagement)",
+                  r: 4
+                }} />
+                  <Line type="monotone" dataKey="withoutStressManagement" stroke="var(--color-withoutStressManagement)" strokeWidth={3} dot={{
+                  fill: "var(--color-withoutStressManagement)",
+                  r: 4
+                }} />
                 </LineChart>
               </ChartContainer>
               
@@ -175,8 +175,6 @@ const AnxietyGlucoseConnection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AnxietyGlucoseConnection;

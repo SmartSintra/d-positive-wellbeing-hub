@@ -62,19 +62,7 @@ const SolutionOverview = () => {
           </div>
 
           {/* Additional content section with emotive image */}
-          <div className="mt-20 grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <h3 className="font-bold text-[#18143C] text-4xl">Built for the T1D Community</h3>
-              <p className="text-lg text-gray-700 leading-relaxed">With around 30.000 patients in Portugal and over 8 million worldwide struggling with the emotional burden of T1D management, D+Positive provides accessible mental health support for all T1D patients, teaching people to live with Type One in a more positive and healthy perspective that directly impacts the disease physi</p>
-            </div>
-            <div className="flex justify-center">
-              <div className="relative">
-                <img src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=400&fit=crop&crop=center" alt="Friendly community support" className="rounded-2xl shadow-2xl" />
-                <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-[#3ED3FE] rounded-full opacity-20 animate-pulse"></div>
-                <div className="absolute -top-4 -left-4 w-16 h-16 bg-[#B86DFE] rounded-full opacity-20 animate-pulse delay-1000"></div>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>;

@@ -75,7 +75,7 @@ const AnxietyGlucoseConnection = () => {
             {/* Left Panel - HbA1c Bar Chart */}
             <div className="bg-gradient-to-br from-[#f8fafc] to-[#e2e8f0] p-8 rounded-2xl shadow-lg">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-xl flex items-center justify-center">
+                <div className="w-12 h-12 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-full flex items-center justify-center">
                   <Cloud className="w-6 h-6 text-white" />
                 </div>
                 <div>
@@ -102,7 +102,7 @@ const AnxietyGlucoseConnection = () => {
             {/* Right Panel - Glucose Fluctuations Line Chart */}
             <div className="bg-gradient-to-br from-[#f8fafc] to-[#e2e8f0] p-8 rounded-2xl shadow-lg">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-xl flex items-center justify-center">
+                <div className="w-12 h-12 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-full flex items-center justify-center">
                   <CloudLightning className="w-6 h-6 text-white" />
                 </div>
                 <div>

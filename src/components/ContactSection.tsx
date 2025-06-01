@@ -26,8 +26,8 @@ const ContactSection = () => {
               
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-full flex items-center justify-center">
-                    <span className="text-white font-bold">✉</span>
+                  <div className="w-16 h-16 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-full flex items-center justify-center">
+                    <span className="text-white font-bold text-xl">✉</span>
                   </div>
                   <div>
                     <p className="font-semibold text-[#18143C]">Email Us</p>

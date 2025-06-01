@@ -1,7 +1,5 @@
-
 const Testimonials = () => {
-  return (
-    <section className="py-20 bg-white">
+  return <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-[#18143C] text-center mb-16">
@@ -33,15 +31,13 @@ const Testimonials = () => {
                 
                 <div className="mt-8 pt-6 border-t border-gray-200">
                   <p className="font-bold text-[#18143C] text-xl">Founder & Creator</p>
-                  <p className="text-[#3ED3FE] text-lg">T1D Warrior & Mental Health Advocate</p>
+                  <p className="text-lg text-violet-500">T1D Warrior & Mental Health Advocate</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Testimonials;

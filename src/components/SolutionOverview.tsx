@@ -1,4 +1,6 @@
+
 import { Brain, Activity, Heart, Smartphone, Calendar, Shield } from "lucide-react";
+
 const SolutionOverview = () => {
   const features = [{
     icon: Brain,
@@ -25,6 +27,7 @@ const SolutionOverview = () => {
     title: "Privacy-first approach",
     description: "Your mental health data stays secure and confidential and share your data with your doctor and medical team safely"
   }];
+
   return <section className="py-20 bg-gradient-to-br from-[#f8fafc] to-[#e2e8f0]">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
@@ -47,7 +50,7 @@ const SolutionOverview = () => {
             }}>
                   <div className="absolute inset-0 bg-gradient-to-br from-[#B86DFE]/5 to-transparent opacity-50"></div>
                   <div className="relative z-10">
-                    <div className="w-16 h-16 bg-gradient-to-br from-[#3ED3FE] to-[#B86DFE] rounded-2xl flex items-center justify-center mb-6">
+                    <div className="w-16 h-16 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-2xl flex items-center justify-center mb-6">
                       <IconComponent className="w-8 h-8 text-white" />
                     </div>
                     <h3 className="text-xl font-bold text-[#18143C] mb-4">
@@ -60,11 +63,9 @@ const SolutionOverview = () => {
                 </div>;
           })}
           </div>
-
-          {/* Additional content section with emotive image */}
-          
         </div>
       </div>
     </section>;
 };
+
 export default SolutionOverview;

@@ -65,7 +65,7 @@ const SolutionOverview = () => {
           <div className="mt-20 grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h3 className="font-bold text-[#18143C] text-4xl">Built for the T1D Community</h3>
-              <p className="text-lg text-gray-700 leading-relaxed">With only around 30.000 patients in Portugal and over 8 million worldwide struggling with the emotional burden of T1D management, D+Positive provides accessible mental health support for all T1D patients, teaching people to live with Type One in a more positive and healthy pe</p>
+              <p className="text-lg text-gray-700 leading-relaxed">With around 30.000 patients in Portugal and over 8 million worldwide struggling with the emotional burden of T1D management, D+Positive provides accessible mental health support for all T1D patients, teaching people to live with Type One in a more positive and healthy perspective that directly impacts the disease physi</p>
             </div>
             <div className="flex justify-center">
               <div className="relative">

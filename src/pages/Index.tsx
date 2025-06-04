@@ -1,13 +1,13 @@
 
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
-import ProblemStatement from "@/components/ProblemStatement";
-import SolutionOverview from "@/components/SolutionOverview";
-import AnxietyGlucoseConnection from "@/components/AnxietyGlucoseConnection";
-import AppMockup3D from "@/components/AppMockup3D";
 import Testimonials from "@/components/Testimonials";
-import CallToAction from "@/components/CallToAction";
+import ProblemStatement from "@/components/ProblemStatement";
+import AnxietyGlucoseConnection from "@/components/AnxietyGlucoseConnection";
+import SolutionOverview from "@/components/SolutionOverview";
+import AppMockup3D from "@/components/AppMockup3D";
 import AboutSection from "@/components/AboutSection";
+import CallToAction from "@/components/CallToAction";
 import ContactSection from "@/components/ContactSection";
 
 const Index = () => {
@@ -15,13 +15,13 @@ const Index = () => {
     <div className="min-h-screen">
       <Navigation />
       <HeroSection />
-      <ProblemStatement />
-      <SolutionOverview />
-      <AnxietyGlucoseConnection />
-      <AppMockup3D />
       <Testimonials />
-      <CallToAction />
+      <ProblemStatement />
+      <AnxietyGlucoseConnection />
+      <SolutionOverview />
+      <AppMockup3D />
       <AboutSection />
+      <CallToAction />
       <ContactSection />
     </div>
   );

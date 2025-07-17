@@ -27,7 +27,7 @@ const Navigation = () => {
           <div className="flex items-center justify-between bg-[#000a00]/0 max-w-7xl mx-auto">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-[#B86DFE] to-[#18143C] rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-gradient-to-br from-[#00a9e0] to-[#00529B] rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-lg">D+</span>
               </div>
               <span className="text-xl font-bold text-slate-50">D+Positive</span>
@@ -35,26 +35,7 @@ const Navigation = () => {
 
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-6">
-              <a href="#about" className="text-white hover:text-[#8B5CF6] transition-colors flex items-center space-x-1 border border-white rounded-full px-4 py-2 hover:bg-white/10">
-                <Info className="w-4 h-4" />
-                <span>About Us</span>
-              </a>
-              <a href="#learn" className="text-white hover:text-[#8B5CF6] transition-colors flex items-center space-x-1 border border-white rounded-full px-4 py-2 hover:bg-white/10 bg-transparent">
-                <BookOpen className="w-4 h-4" />
-                <span>Learn</span>
-              </a>
-              <Button className="bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white rounded-full flex items-center space-x-1">
-                <Rocket className="w-4 h-4" />
-                <span>Join Beta</span>
-              </Button>
-              <Button className="bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white rounded-full flex items-center space-x-1">
-                <Bell className="w-4 h-4" />
-                <span>Subscribe for More</span>
-              </Button>
-              <Button variant="outline" className="border-white text-white hover:bg-white/10 rounded-full flex items-center space-x-1 bg-transparent">
-                <Heart className="w-4 h-4" />
-                <span>Support This Project</span>
-              </Button>
+              {/* Menu removed as requested */}
             </div>
 
             {/* Mobile Menu Button */}
@@ -66,26 +47,7 @@ const Navigation = () => {
           {/* Mobile Menu */}
           {isMenuOpen && (
             <div className="md:hidden mt-4 pb-4 space-y-4 max-w-7xl mx-auto">
-              <a href="#about" className="block text-white hover:text-[#8B5CF6] flex items-center space-x-2 border border-white rounded-full px-4 py-2 hover:bg-white/10">
-                <Info className="w-4 h-4" />
-                <span>About Us</span>
-              </a>
-              <a href="#learn" className="block text-white hover:text-[#8B5CF6] flex items-center space-x-2 border border-white rounded-full px-4 py-2 hover:bg-white/10 bg-transparent">
-                <BookOpen className="w-4 h-4" />
-                <span>Learn</span>
-              </a>
-              <Button className="w-full bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white rounded-full flex items-center justify-center space-x-1">
-                <Rocket className="w-4 h-4" />
-                <span>Join Beta</span>
-              </Button>
-              <Button className="w-full bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white rounded-full flex items-center justify-center space-x-1">
-                <Bell className="w-4 h-4" />
-                <span>Subscribe for More</span>
-              </Button>
-              <Button variant="outline" className="w-full border-white text-white hover:bg-white/10 rounded-full flex items-center justify-center space-x-1 bg-transparent">
-                <Heart className="w-4 h-4" />
-                <span>Support This Project</span>
-              </Button>
+              {/* Mobile menu removed as requested */}
             </div>
           )}
         </div>
@@ -95,7 +57,7 @@ const Navigation = () => {
       {showScrollTop && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 z-50 bg-gradient-to-br from-[#B86DFE] to-[#18143C] hover:from-[#a05ce6] hover:to-[#0f0e1a] text-white p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-105"
+          className="fixed bottom-8 right-8 z-50 bg-gradient-to-br from-[#00a9e0] to-[#00529B] hover:from-[#00529B] hover:to-[#081c2b] text-white p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-105"
         >
           <ChevronUp className="w-5 h-5" />
         </button>

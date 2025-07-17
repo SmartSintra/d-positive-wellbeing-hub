@@ -1,8 +1,6 @@
 import { Button } from "@/components/ui/button";
-
 const AppMockup3D = () => {
-  return (
-    <section className="py-20 bg-gradient-to-tr from-[#081c2b] via-[#00529B] to-[#081c2b] relative overflow-hidden">
+  return <section className="py-20 bg-gradient-to-tr from-[#081c2b] via-[#00529B] to-[#081c2b] relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-1/4 left-1/6 w-72 h-72 bg-[#00a9e0] rounded-full filter blur-3xl animate-pulse"></div>
@@ -12,9 +10,7 @@ const AppMockup3D = () => {
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
-            Experiencie o D+Positive em Ação
-          </h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">D+Positive em Ação</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Veja como a nossa interface intuitiva torna o apoio à saúde mental acessível e envolvente para pacientes com DT1.
           </p>
@@ -25,7 +21,9 @@ const AppMockup3D = () => {
           <div className="flex-1 flex justify-center">
             <div className="relative">
               {/* Realistic iPhone 3D */}
-              <div className="relative transform-gpu" style={{ transform: 'perspective(1000px) rotateY(-15deg) rotateX(5deg)' }}>
+              <div className="relative transform-gpu" style={{
+              transform: 'perspective(1000px) rotateY(-15deg) rotateX(5deg)'
+            }}>
                 {/* iPhone 14 Pro Frame */}
                 <div className="w-80 h-[650px] bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 rounded-[3.5rem] p-3 shadow-2xl relative">
                   {/* Dynamic Island */}
@@ -57,11 +55,9 @@ const AppMockup3D = () => {
                       {/* Mood Selector */}
                       <div className="bg-gradient-to-r from-[#00a9e0]/10 to-[#CCE4F7]/10 rounded-2xl p-6 border border-[#00a9e0]/20">
                         <div className="flex justify-between mb-4">
-                          {[1,2,3,4,5].map((i) => (
-                            <div key={i} className={`w-12 h-12 rounded-full ${i === 4 ? 'bg-[#00a9e0] scale-110' : 'bg-gray-200'} flex items-center justify-center text-xl transition-all duration-300 shadow-sm`}>
+                          {[1, 2, 3, 4, 5].map(i => <div key={i} className={`w-12 h-12 rounded-full ${i === 4 ? 'bg-[#00a9e0] scale-110' : 'bg-gray-200'} flex items-center justify-center text-xl transition-all duration-300 shadow-sm`}>
                               {i === 4 ? '😊' : '😐'}
-                            </div>
-                          ))}
+                            </div>)}
                         </div>
                         <p className="text-sm text-gray-600 text-center font-medium">Sinto-me bastante bem hoje!</p>
                       </div>
@@ -105,9 +101,9 @@ const AppMockup3D = () => {
               <div className="absolute -top-16 -right-20 transform rotate-12">
                 <div className="w-64 h-48 bg-white rounded-xl shadow-lg border border-[#00a9e0]/30 p-4">
                   <div className="h-full bg-gradient-to-br from-[#00a9e0]/10 to-[#CCE4F7]/10 rounded-lg flex flex-col justify-center items-center">
-                    <div className="text-4xl mb-2">📈</div>
-                    <h4 className="font-bold text-[#081c2b] text-sm">Tendências do Humor</h4>
-                    <p className="text-xs text-gray-600 text-center mt-1">Padrões emocionais semanais</p>
+                    
+                    
+                    
                   </div>
                 </div>
               </div>
@@ -134,9 +130,7 @@ const AppMockup3D = () => {
               <h3 className="text-3xl font-bold text-white">
                 Design Intuitivo Encontra IA Poderosa
               </h3>
-              <p className="text-lg text-gray-300 leading-relaxed">
-                A nossa aplicação combina um design bonito e fácil de usar com tecnologia de IA avançada para fornecer apoio personalizado à saúde mental que se encaixa perfeitamente na sua rotina diária.
-              </p>
+              
             </div>
             
             <div className="space-y-4">
@@ -154,17 +148,10 @@ const AppMockup3D = () => {
               </div>
             </div>
             
-            <Button 
-              size="lg"
-              className="bg-gradient-to-br from-[#00a9e0] to-[#00529B] hover:from-[#00529B] hover:to-[#081c2b] text-white px-8 py-6 text-lg font-semibold rounded-full shadow-2xl hover:shadow-[#00a9e0]/50 transition-all duration-300 hover:scale-105"
-            >
-              Experimentar o Beta Agora
-            </Button>
+            
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AppMockup3D;

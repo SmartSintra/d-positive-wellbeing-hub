@@ -10,12 +10,8 @@ const AboutSection = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Sobre o D+Positive
-            </h2>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Respondendo à necessidade urgente de apoio psicológico nos cuidados da Diabetes Tipo 1
-            </p>
+            
+            
           </div>
           
           <div className="grid lg:grid-cols-2 gap-8 mb-16">

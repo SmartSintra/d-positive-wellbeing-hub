@@ -28,14 +28,7 @@ const HeroSection = () => {
               
               <p className="text-xl text-gray-300 mb-8 max-w-3xl leading-relaxed animate-fade-in delay-300 text-left md:text-xl">O D+Positive aborda a lacuna crítica no apoio psicológico para pacientes com DT1, oferecendo recursos especializados de saúde mental e orientação emocional.</p>
               
-              <div className="flex flex-col sm:flex-row gap-4 justify-start items-start animate-fade-in delay-500">
-                <Button size="lg" className="bg-gradient-to-br from-[#00a9e0] to-[#00529B] hover:from-[#00529B] hover:to-[#081c2b] text-white px-8 py-4 text-lg font-semibold rounded-full shadow-2xl hover:shadow-[#00a9e0]/50 transition-all duration-300 hover:scale-105 flex items-center space-x-2">
-                  <div className="w-6 h-6 rounded-full flex items-center justify-center bg-white/0">
-                    <Rocket className="w-4 h-4" />
-                  </div>
-                  <span>Participar no Programa Beta</span>
-                </Button>
-              </div>
+              
             </div>
 
             {/* Floating emotive image */}

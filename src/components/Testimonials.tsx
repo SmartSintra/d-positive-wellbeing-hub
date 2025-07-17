@@ -3,9 +3,7 @@ const Testimonials = () => {
   return <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-[#18143C] text-center mb-16">
-            Why I Created D+Positive
-          </h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#18143C] text-center mb-16">Porquê D+Positive?</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Large Photo */}
@@ -38,8 +36,8 @@ That's why I created D+Positive — not just as a tool, but as an emotional ally
                 </div>
                 
                 <div className="pt-6 border-t border-gray-200">
-                  <p className="font-bold text-[#18143C] text-xl">Founder & Creator</p>
-                  <p className="text-lg text-violet-500">T1D Warrior &amp; Very Stubborn (but Hopeful) Patient</p>
+                  <p className="font-bold text-[#18143C] text-xl">Beatriz Miranda</p>
+                  <p className="text-lg text-violet-500">Founder & Creator</p>
                 </div>
               </div>
             </div>

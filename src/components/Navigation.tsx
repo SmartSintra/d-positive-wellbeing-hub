@@ -23,8 +23,11 @@ const Navigation = () => {
           <div className="flex items-center justify-between bg-[#000a00]/0 max-w-7xl mx-auto">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-              
-              
+              <img 
+                src="/lovable-uploads/1209850a-4e3a-4993-8796-2ba72cb76b7d.png" 
+                alt="Logo" 
+                className="h-8 w-auto"
+              />
             </div>
 
             {/* Desktop Menu */}

@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Rocket, Brain } from "lucide-react";
 const HeroSection = () => {
-  return <section className="relative h-screen flex items-center justify-center overflow-hidden -mt-20">
+  return <section className="relative h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Full screen hero image */}
       <div className="absolute inset-0">
         <img 

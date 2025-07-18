@@ -10,7 +10,7 @@ const HeroSection = () => {
       </div>
       
       {/* Dark overlay for text readability */}
-      <div className="absolute inset-0 bg-black/70"></div>
+      <div className="absolute inset-0 bg-black/90"></div>
       
       {/* Hero content */}
       <div className="relative z-10 text-center px-6">

@@ -24,7 +24,7 @@ const CallToAction = () => {
               className="bg-gradient-to-br from-[#00a9e0] to-[#00529B] hover:from-[#00529B] hover:to-[#081c2b] text-white px-12 py-6 text-xl font-semibold rounded-full shadow-2xl hover:shadow-[#00a9e0]/50 transition-all duration-300 hover:scale-105"
               onClick={() => window.open('https://www.linkedin.com/in/beatrizmiranda-pt?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app', '_blank')}
             >
-              Inscrever-se Agora
+              vamos conversar!
             </Button>
             
             

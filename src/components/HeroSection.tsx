@@ -7,7 +7,7 @@ const HeroSection = () => {
         <img 
           src="/lovable-uploads/6e14c12d-868a-4ea1-9faa-e5c5293f8249.png" 
           alt="D+Positive - O companheiro emocional para quem vive com Diabetes Tipo 1" 
-          className="w-full h-full object-cover" 
+          className="w-full h-full object-contain" 
         />
       </div>
       

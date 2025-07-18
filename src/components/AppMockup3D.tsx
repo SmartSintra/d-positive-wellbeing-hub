@@ -19,7 +19,7 @@ const AppMockup3D = () => {
           {/* Full Screen App Image */}
           <div className="w-full max-w-6xl mx-auto">
             <img 
-              src="/lovable-uploads/5cf8a851-7f62-49a0-9bc6-94dd06d8c03d.png" 
+              src="/lovable-uploads/316933fb-7318-4f6a-819c-1cf327a64626.png" 
               alt="D+Positive App - Vê a aplicação em ação" 
               className="w-full h-auto rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-300" 
             />

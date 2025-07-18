@@ -16,17 +16,13 @@ const AppMockup3D = () => {
             Descobre como o D+Positive pode transformar a gestão da tua diabetes
           </p>
           
-          {/* App Screenshots */}
-          <div className="flex flex-col lg:flex-row justify-center items-center gap-8 max-w-full mx-auto">
-            <div className="transform hover:scale-105 transition-transform duration-300">
-              <img src="/lovable-uploads/e268aaa6-9746-4b2a-807a-7299e373cf2d.png" alt="D+Positive App - Dashboard principal" className="w-full max-w-md lg:max-w-lg xl:max-w-xl h-auto rounded-3xl shadow-2xl" />
-            </div>
-            <div className="transform hover:scale-105 transition-transform duration-300">
-              
-            </div>
-            <div className="transform hover:scale-105 transition-transform duration-300">
-              
-            </div>
+          {/* Full Screen App Image */}
+          <div className="w-full max-w-6xl mx-auto">
+            <img 
+              src="/lovable-uploads/063c35f7-cc3a-4339-b492-ae9fc54fa59d.png" 
+              alt="D+Positive App - Vê a aplicação em ação" 
+              className="w-full h-auto rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-300" 
+            />
           </div>
         </div>
       </div>

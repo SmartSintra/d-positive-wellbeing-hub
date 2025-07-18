@@ -5,7 +5,7 @@ const HeroSection = () => {
       {/* Full screen hero image */}
       <div className="absolute inset-0">
         <img 
-          src="/lovable-uploads/6e14c12d-868a-4ea1-9faa-e5c5293f8249.png" 
+          src="/lovable-uploads/6696ad5c-9b95-4186-8712-4455a86a9636.png" 
           alt="D+Positive - O companheiro emocional para quem vive com Diabetes Tipo 1" 
           className="w-full h-full object-contain" 
         />

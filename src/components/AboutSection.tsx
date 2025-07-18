@@ -10,8 +10,9 @@ const AboutSection = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            
-            
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+              De uma diabética, para todos os diabéticos.
+            </h2>
           </div>
           
           <div className="grid lg:grid-cols-2 gap-8 mb-16">

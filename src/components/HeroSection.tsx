@@ -4,7 +4,7 @@ const HeroSection = () => {
   return <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Full screen hero image */}
       <div className="absolute inset-0">
-        <img src="/lovable-uploads/6696ad5c-9b95-4186-8712-4455a86a9636.png" alt="D+Positive - O companheiro emocional para quem vive com Diabetes Tipo 1" className="w-full h-full object-contain" />
+        <img src="/lovable-uploads/6696ad5c-9b95-4186-8712-4455a86a9636.png" alt="D+Positive - O companheiro emocional para quem vive com Diabetes Tipo 1" className="w-full h-full object-cover" />
       </div>
       
       {/* Enhanced scroll indicator - soft and simple */}

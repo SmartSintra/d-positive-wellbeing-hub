@@ -16,13 +16,38 @@ const AppMockup3D = () => {
             Descobre como o D+Positive pode transformar a gestão da tua diabetes
           </p>
           
-          {/* Full Screen App Image */}
-          <div className="w-full max-w-6xl mx-auto">
-            <img 
-              src="/lovable-uploads/316933fb-7318-4f6a-819c-1cf327a64626.png" 
-              alt="D+Positive App - Vê a aplicação em ação" 
-              className="w-full h-auto rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-300" 
-            />
+          {/* Mobile App Screenshots Grid */}
+          <div className="w-full max-w-5xl mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+              <div className="transform hover:scale-105 transition-transform duration-300">
+                <img 
+                  src="/lovable-uploads/55bf9967-8afb-40b8-a364-79d4788bbf6d.png" 
+                  alt="D+Positive - Posso ajudar-te?" 
+                  className="w-full h-auto rounded-2xl shadow-2xl" 
+                />
+              </div>
+              <div className="transform hover:scale-105 transition-transform duration-300">
+                <img 
+                  src="/lovable-uploads/7fca6fdb-e639-4dee-a249-e967a39aaf8d.png" 
+                  alt="D+Positive - Dashboard principal" 
+                  className="w-full h-auto rounded-2xl shadow-2xl" 
+                />
+              </div>
+              <div className="transform hover:scale-105 transition-transform duration-300">
+                <img 
+                  src="/lovable-uploads/46fa50f4-c70c-4c51-b8f5-09183c491e70.png" 
+                  alt="D+Positive - Companheiro SOS" 
+                  className="w-full h-auto rounded-2xl shadow-2xl" 
+                />
+              </div>
+              <div className="transform hover:scale-105 transition-transform duration-300">
+                <img 
+                  src="/lovable-uploads/01806194-0e1f-440a-ba23-0bffbbc64864.png" 
+                  alt="D+Positive - Estratégias" 
+                  className="w-full h-auto rounded-2xl shadow-2xl" 
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -19,25 +19,13 @@ const AppMockup3D = () => {
           {/* App Screenshots */}
           <div className="flex flex-col md:flex-row justify-center items-center gap-8 max-w-6xl mx-auto">
             <div className="transform hover:scale-105 transition-transform duration-300">
-              <img 
-                src="/lovable-uploads/e268aaa6-9746-4b2a-807a-7299e373cf2d.png" 
-                alt="D+Positive App - Dashboard principal" 
-                className="w-80 h-auto rounded-3xl shadow-2xl"
-              />
+              <img src="/lovable-uploads/e268aaa6-9746-4b2a-807a-7299e373cf2d.png" alt="D+Positive App - Dashboard principal" className="w-80 h-auto rounded-3xl shadow-2xl" />
             </div>
             <div className="transform hover:scale-105 transition-transform duration-300">
-              <img 
-                src="/lovable-uploads/34fb2d92-ee4b-40c4-9297-9124e54594ee.png" 
-                alt="D+Positive App - Assistente de ajuda" 
-                className="w-80 h-auto rounded-3xl shadow-2xl"
-              />
+              
             </div>
             <div className="transform hover:scale-105 transition-transform duration-300">
-              <img 
-                src="/lovable-uploads/e041a870-f9fe-44be-8326-6ecd6ab8fc42.png" 
-                alt="D+Positive App - Companheiro SOS" 
-                className="w-80 h-auto rounded-3xl shadow-2xl"
-              />
+              
             </div>
           </div>
         </div>

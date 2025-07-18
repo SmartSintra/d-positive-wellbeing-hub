@@ -21,13 +21,19 @@ const Navigation = () => {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 w-full shadow-lg shadow-[#8B5CF6]/10">
         <div className="w-full px-6 py-4 bg-primary">
           <div className="flex items-center justify-between bg-[#000a00]/0 max-w-7xl mx-auto">
-            {/* Logo */}
-            <div className="flex items-center space-x-2">
+            {/* Logo and CTA Button */}
+            <div className="flex items-center space-x-4">
               <img 
                 src="/lovable-uploads/1209850a-4e3a-4993-8796-2ba72cb76b7d.png" 
                 alt="Logo" 
                 className="h-12 w-auto"
               />
+              <Button
+                className="bg-white/20 hover:bg-white/30 text-white border border-white/30 rounded-full px-6 py-2 text-sm font-medium transition-all duration-300"
+                onClick={() => window.open('https://www.linkedin.com/in/beatrizmiranda-pt?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app', '_blank')}
+              >
+                Vamos conversar?
+              </Button>
             </div>
 
             {/* Desktop Menu */}

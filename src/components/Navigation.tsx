@@ -40,16 +40,7 @@ const Navigation = () => {
               </Button>
             </div>
 
-            {/* Mobile Menu Button */}
-            <button className="md:hidden text-white" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-              {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-            </button>
           </div>
-
-          {/* Mobile Menu */}
-          {isMenuOpen && <div className="md:hidden mt-4 pb-4 space-y-4 max-w-7xl mx-auto">
-              {/* Mobile menu removed as requested */}
-            </div>}
         </div>
       </nav>
 

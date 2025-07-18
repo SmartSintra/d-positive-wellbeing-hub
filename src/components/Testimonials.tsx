@@ -1,7 +1,7 @@
 import { Rocket, Brain } from "lucide-react";
 const Testimonials = () => {
-  return <section className="py-20 bg-white">
-      <div className="container mx-auto px-6">
+  return <section className="bg-white">
+      <div className="container mx-auto px-6 pt-20">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-[#18143C] text-center mb-16">Porquê D+Positive?</h2>
           

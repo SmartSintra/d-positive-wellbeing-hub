@@ -29,10 +29,9 @@ const Testimonials = () => {
                 
                 
                 <div className="text-lg text-gray-700 leading-relaxed">
-                  <p className="text-base font-normal">Living with Type 1 Diabetes for over 16 years has taught me that managing numbers is only half the story — the emotional weight is just as constant. Despite having access to one of the most advanced treatments, I've still faced the same mental spirals, frustrations, and quiet fears that don't show on a glucose graph. 
+                  <p className="text-base font-normal">Viver com Diabetes Tipo 1 há mais de 16 anos ensinou-me que gerir números é apenas uma parte da história — o peso emocional é igualmente constante. Apesar de ter acesso a um dos tratamentos mais avançados, enfrentei os mesmos ciclos mentais, frustrações e medos silenciosos que não aparecem num gráfico de glicose.
 
-
-That's why I created D+Positive — not just as a tool, but as an emotional ally for people with T1D. Because what if managing diabetes is also about feeling understood, supported, and a little more human every day, I believe that living with Diabetes can truly be more positive and this vision and hope is what I am willing to share with the world.</p>
+Foi por isso que criei a D+Positive — não apenas como uma ferramenta, mas como um aliado emocional para quem vive com DT1. Porque e se gerir a diabetes também for sobre sentirmo-nos compreendidos, apoiados e um pouco mais humanos a cada dia? Acredito que viver com diabetes pode realmente ser mais positivo — e é essa visão e esperança que quero partilhar com o mundo.</p>
                 </div>
                 
                 <div className="pt-6 border-t border-gray-200">

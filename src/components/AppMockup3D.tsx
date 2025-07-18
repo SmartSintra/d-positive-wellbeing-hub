@@ -22,10 +22,10 @@ const AppMockup3D = () => {
               <img src="/lovable-uploads/e268aaa6-9746-4b2a-807a-7299e373cf2d.png" alt="D+Positive App - Dashboard principal" className="w-full max-w-md lg:max-w-lg xl:max-w-xl h-auto rounded-3xl shadow-2xl" />
             </div>
             <div className="transform hover:scale-105 transition-transform duration-300">
-              <img src="/lovable-uploads/e041a870-f9fe-44be-8326-6ecd6ab8fc42.png" alt="D+Positive App - Registo de glicose" className="w-full max-w-md lg:max-w-lg xl:max-w-xl h-auto rounded-3xl shadow-2xl" />
+              
             </div>
             <div className="transform hover:scale-105 transition-transform duration-300">
-              <img src="/lovable-uploads/34fb2d92-ee4b-40c4-9297-9124e54594ee.png" alt="D+Positive App - Análise de tendências" className="w-full max-w-md lg:max-w-lg xl:max-w-xl h-auto rounded-3xl shadow-2xl" />
+              
             </div>
           </div>
         </div>

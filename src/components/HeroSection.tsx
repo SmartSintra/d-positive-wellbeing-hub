@@ -14,9 +14,11 @@ const HeroSection = () => {
       
       {/* Hero content */}
       <div className="relative z-10 text-center px-6">
-        <h1 className="text-6xl md:text-8xl font-bold text-white mb-4">
-          D+Positive
-        </h1>
+        <img 
+          src="/lovable-uploads/1623efbc-0253-4fb5-a2a6-cb7456b88e18.png" 
+          alt="D+Positive Logo" 
+          className="h-32 md:h-40 w-auto mx-auto mb-6"
+        />
         <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
           O teu companheiro emocional para a Diabetes Tipo 1
         </p>
